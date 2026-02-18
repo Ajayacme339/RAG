@@ -1,0 +1,501 @@
+Patient_ID,First_Name,Last_Name,Gender,Age,City,Diagnosis_Code,Diagnosis_Description,Medication,Admission_Date,Discharge_Date,Lab_HbA1c,Lab_LDL,Smoker,Insurance_Type
+P0001,Noah,Rodriguez,F,82,Jacksonville,I10,Hypertension,Lisinopril,3/13/2025,3/17/2025,7.3,125,Yes,Private
+P0002,John,Johnson,F,27,Houston,J18,Pneumonia,Azithromycin,1/31/2025,2/7/2025,5.9,138,Yes,Private
+P0003,Olivia,Garcia,M,25,New York,E11,Type 2 Diabetes,Metformin,1/19/2025,1/26/2025,5.2,103,No,Medicaid
+P0004,James,Davis,F,70,Phoenix,E11,Type 2 Diabetes,Metformin,1/14/2025,1/15/2025,9.9,128,No,Medicaid
+P0005,Isabella,Johnson,M,41,Austin,E11,Type 2 Diabetes,Metformin,1/2/2025,1/7/2025,7.4,119,No,Medicare
+P0006,Olivia,Garcia,M,29,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,6/16/2025,6/18/2025,7.2,100,Yes,Medicare
+P0007,Sophia,Davis,M,79,Dallas,E78,Hyperlipidemia,Atorvastatin,6/15/2025,6/18/2025,5.1,144,Yes,Private
+P0008,Sophia,Martinez,M,68,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,5/11/2025,5/15/2025,8.9,114,Yes,Medicare
+P0009,Olivia,Williams,F,71,Jacksonville,J18,Pneumonia,Azithromycin,3/24/2025,3/29/2025,6.5,86,Yes,Medicare
+P0010,James,Jones,M,25,Los Angeles,N39,Urinary Tract Infection,Nitrofurantoin,2/17/2025,2/22/2025,7.8,162,Yes,Medicare
+P0011,Isabella,Jones,M,33,Los Angeles,E11,Type 2 Diabetes,Metformin,1/4/2025,1/7/2025,8.3,159,No,Private
+P0012,William,Davis,F,29,New York,N39,Urinary Tract Infection,Nitrofurantoin,1/7/2025,1/10/2025,5.9,160,Yes,Private
+P0013,James,Davis,F,46,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,4/28/2025,5/5/2025,7.7,173,No,Medicaid
+P0014,Noah,Brown,M,39,Phoenix,N39,Urinary Tract Infection,Nitrofurantoin,1/22/2025,1/29/2025,6.3,97,Yes,Medicaid
+P0015,John,Jones,F,72,New York,N39,Urinary Tract Infection,Nitrofurantoin,3/10/2025,3/14/2025,7.9,159,Yes,Private
+P0016,John,Martinez,F,66,San Jose,J18,Pneumonia,Azithromycin,1/18/2025,1/19/2025,6.6,88,Yes,Medicare
+P0017,Olivia,Miller,M,38,Jacksonville,E11,Type 2 Diabetes,Metformin,5/20/2025,5/23/2025,5.6,103,Yes,Medicaid
+P0018,Noah,Martinez,M,43,New York,J18,Pneumonia,Azithromycin,5/9/2025,5/10/2025,8.1,115,Yes,Private
+P0019,Ava,Jones,M,45,Phoenix,J45,Asthma,Albuterol,5/4/2025,5/6/2025,8.7,174,No,Medicaid
+P0020,Sophia,Jones,M,41,Houston,E11,Type 2 Diabetes,Metformin,3/7/2025,3/14/2025,6.9,89,Yes,Private
+P0021,Emma,Williams,M,37,Houston,E78,Hyperlipidemia,Atorvastatin,4/22/2025,4/27/2025,7,165,Yes,Medicare
+P0022,Sophia,Garcia,M,78,Phoenix,E78,Hyperlipidemia,Atorvastatin,4/22/2025,4/28/2025,8.4,162,Yes,Medicaid
+P0023,Noah,Rodriguez,M,66,Jacksonville,J18,Pneumonia,Azithromycin,2/28/2025,3/3/2025,7.3,143,Yes,Private
+P0024,John,Garcia,F,26,Austin,E11,Type 2 Diabetes,Metformin,5/13/2025,5/17/2025,9.8,154,No,Private
+P0025,James,Brown,M,37,San Diego,E11,Type 2 Diabetes,Metformin,1/28/2025,1/29/2025,8.2,131,Yes,Private
+P0026,Olivia,Garcia,M,59,Jacksonville,J18,Pneumonia,Azithromycin,5/9/2025,5/14/2025,6.4,128,No,Private
+P0027,Sophia,Davis,F,52,Houston,J18,Pneumonia,Azithromycin,1/31/2025,2/5/2025,8.3,97,No,Medicare
+P0028,Noah,Johnson,F,28,Austin,N39,Urinary Tract Infection,Nitrofurantoin,6/16/2025,6/20/2025,6.1,88,Yes,Medicaid
+P0029,Sophia,Davis,F,35,Austin,I21,Acute Myocardial Infarction,Aspirin,3/18/2025,3/19/2025,6.6,166,No,Private
+P0030,James,Jones,F,81,San Jose,J45,Asthma,Albuterol,4/29/2025,5/2/2025,9,88,No,Private
+P0031,Olivia,Williams,F,58,New York,I10,Hypertension,Lisinopril,1/23/2025,1/29/2025,8.3,164,No,Private
+P0032,Noah,Smith,F,47,Jacksonville,J45,Asthma,Albuterol,2/22/2025,2/24/2025,7.3,100,Yes,Private
+P0033,Ava,Jones,F,56,Jacksonville,I21,Acute Myocardial Infarction,Aspirin,2/10/2025,2/12/2025,8.7,157,Yes,Medicaid
+P0034,Olivia,Miller,M,44,Los Angeles,J45,Asthma,Albuterol,1/29/2025,2/1/2025,9.9,85,Yes,Medicaid
+P0035,John,Davis,F,31,Jacksonville,E78,Hyperlipidemia,Atorvastatin,5/12/2025,5/17/2025,5.9,115,No,Medicaid
+P0036,Sophia,Garcia,F,51,Houston,E11,Type 2 Diabetes,Metformin,6/9/2025,6/15/2025,9.4,99,No,Private
+P0037,John,Jones,M,83,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,5/25/2025,5/27/2025,5,139,No,Medicaid
+P0038,Olivia,Brown,F,72,Dallas,I21,Acute Myocardial Infarction,Aspirin,3/17/2025,3/24/2025,9.2,110,Yes,Medicaid
+P0039,Olivia,Brown,M,50,Dallas,I10,Hypertension,Lisinopril,3/10/2025,3/11/2025,7.7,144,No,Private
+P0040,James,Davis,F,57,Los Angeles,E78,Hyperlipidemia,Atorvastatin,4/23/2025,4/30/2025,6.4,113,No,Private
+P0041,Sophia,Martinez,F,32,San Jose,E11,Type 2 Diabetes,Metformin,4/24/2025,4/29/2025,6.1,177,No,Medicaid
+P0042,Sophia,Jones,M,38,San Diego,E11,Type 2 Diabetes,Metformin,3/31/2025,4/2/2025,9.1,142,No,Medicaid
+P0043,Liam,Smith,M,49,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,3/5/2025,3/8/2025,6.6,143,Yes,Private
+P0044,Ava,Smith,F,49,Jacksonville,I10,Hypertension,Lisinopril,5/15/2025,5/20/2025,6.2,163,Yes,Medicaid
+P0045,James,Williams,F,41,Chicago,I21,Acute Myocardial Infarction,Aspirin,6/14/2025,6/21/2025,8.3,164,No,Medicaid
+P0046,John,Williams,M,72,Chicago,E11,Type 2 Diabetes,Metformin,5/31/2025,6/5/2025,8.3,134,No,Medicare
+P0047,Emma,Martinez,F,76,San Jose,E11,Type 2 Diabetes,Metformin,3/13/2025,3/20/2025,9.2,93,No,Medicaid
+P0048,Ava,Garcia,M,56,New York,E78,Hyperlipidemia,Atorvastatin,1/3/2025,1/8/2025,9.1,176,Yes,Medicare
+P0049,William,Johnson,M,64,Austin,N39,Urinary Tract Infection,Nitrofurantoin,6/24/2025,6/26/2025,6.4,135,No,Medicare
+P0050,Sophia,Rodriguez,F,85,Austin,J45,Asthma,Albuterol,1/5/2025,1/12/2025,8.5,161,No,Medicare
+P0051,Sophia,Johnson,F,69,San Jose,J45,Asthma,Albuterol,6/18/2025,6/20/2025,8.5,117,Yes,Medicare
+P0052,Olivia,Johnson,F,33,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,1/2/2025,1/8/2025,5.1,148,Yes,Medicaid
+P0053,Liam,Williams,M,48,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,2/23/2025,2/25/2025,9.3,109,No,Private
+P0054,William,Johnson,M,82,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,1/22/2025,1/27/2025,9.8,89,No,Private
+P0055,Isabella,Williams,M,61,Chicago,J18,Pneumonia,Azithromycin,6/8/2025,6/11/2025,6.3,150,Yes,Medicaid
+P0056,James,Rodriguez,M,37,Chicago,J45,Asthma,Albuterol,3/3/2025,3/10/2025,5.2,114,Yes,Medicare
+P0057,James,Williams,M,36,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,3/5/2025,3/11/2025,8.2,132,No,Private
+P0058,Isabella,Martinez,F,34,Dallas,J45,Asthma,Albuterol,4/29/2025,5/2/2025,6.2,85,Yes,Medicaid
+P0059,Isabella,Johnson,M,40,Austin,E11,Type 2 Diabetes,Metformin,1/27/2025,2/1/2025,5.8,175,Yes,Medicaid
+P0060,Ava,Johnson,F,61,Austin,I21,Acute Myocardial Infarction,Aspirin,3/23/2025,3/30/2025,9,94,Yes,Medicare
+P0061,Emma,Jones,F,65,Dallas,J45,Asthma,Albuterol,6/4/2025,6/9/2025,9.6,86,No,Medicaid
+P0062,Sophia,Miller,F,34,Dallas,J18,Pneumonia,Azithromycin,3/25/2025,3/27/2025,9.2,86,Yes,Medicaid
+P0063,William,Williams,M,59,New York,J45,Asthma,Albuterol,2/5/2025,2/6/2025,7.8,129,No,Private
+P0064,Ava,Miller,M,68,Jacksonville,I10,Hypertension,Lisinopril,2/22/2025,2/23/2025,8.7,130,No,Private
+P0065,James,Smith,M,30,New York,J45,Asthma,Albuterol,1/7/2025,1/10/2025,9.9,118,No,Medicare
+P0066,Noah,Jones,F,85,Dallas,I10,Hypertension,Lisinopril,4/24/2025,5/1/2025,7.7,169,Yes,Private
+P0067,James,Smith,F,27,Austin,I10,Hypertension,Lisinopril,5/11/2025,5/15/2025,6.8,159,No,Private
+P0068,Emma,Davis,M,43,Houston,I10,Hypertension,Lisinopril,5/31/2025,6/1/2025,9.8,143,No,Medicare
+P0069,Noah,Davis,F,30,New York,I21,Acute Myocardial Infarction,Aspirin,4/16/2025,4/21/2025,6.6,82,No,Medicaid
+P0070,Emma,Johnson,M,73,Jacksonville,I21,Acute Myocardial Infarction,Aspirin,2/16/2025,2/20/2025,7.6,92,Yes,Medicaid
+P0071,Isabella,Brown,M,28,Dallas,I10,Hypertension,Lisinopril,6/24/2025,6/26/2025,9.1,106,Yes,Medicaid
+P0072,Olivia,Rodriguez,F,42,Chicago,J18,Pneumonia,Azithromycin,6/2/2025,6/9/2025,9.6,161,No,Medicaid
+P0073,Liam,Davis,F,84,San Diego,E11,Type 2 Diabetes,Metformin,5/29/2025,6/5/2025,5.1,160,Yes,Medicaid
+P0074,James,Miller,M,36,San Diego,J45,Asthma,Albuterol,1/3/2025,1/9/2025,8.5,144,Yes,Medicare
+P0075,Isabella,Smith,M,39,New York,I10,Hypertension,Lisinopril,2/8/2025,2/9/2025,8.5,141,Yes,Medicare
+P0076,James,Williams,F,34,San Diego,J18,Pneumonia,Azithromycin,1/20/2025,1/24/2025,5.2,90,Yes,Private
+P0077,Emma,Jones,M,85,Los Angeles,E78,Hyperlipidemia,Atorvastatin,4/14/2025,4/19/2025,6.8,164,Yes,Medicaid
+P0078,James,Garcia,F,49,Houston,I21,Acute Myocardial Infarction,Aspirin,2/21/2025,2/27/2025,6.1,114,No,Medicaid
+P0079,Noah,Jones,M,47,Phoenix,I21,Acute Myocardial Infarction,Aspirin,6/3/2025,6/6/2025,7.4,136,Yes,Private
+P0080,Isabella,Rodriguez,M,46,Austin,E11,Type 2 Diabetes,Metformin,4/18/2025,4/25/2025,5.1,112,Yes,Medicaid
+P0081,Emma,Johnson,F,48,San Diego,I10,Hypertension,Lisinopril,1/1/2025,1/2/2025,9.2,161,Yes,Medicare
+P0082,William,Jones,M,72,San Jose,J45,Asthma,Albuterol,5/6/2025,5/10/2025,8.7,137,Yes,Private
+P0083,William,Smith,F,43,Austin,J18,Pneumonia,Azithromycin,6/8/2025,6/14/2025,5.6,91,Yes,Medicare
+P0084,Ava,Brown,M,84,Austin,E11,Type 2 Diabetes,Metformin,2/15/2025,2/17/2025,6.2,131,Yes,Medicaid
+P0085,Sophia,Martinez,M,74,New York,N39,Urinary Tract Infection,Nitrofurantoin,3/15/2025,3/22/2025,8.8,91,Yes,Medicaid
+P0086,Sophia,Jones,M,64,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,2/15/2025,2/16/2025,8.4,80,Yes,Medicare
+P0087,John,Smith,F,81,San Diego,J18,Pneumonia,Azithromycin,3/16/2025,3/17/2025,9.6,133,Yes,Medicaid
+P0088,James,Williams,F,81,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,4/21/2025,4/25/2025,6,80,Yes,Medicare
+P0089,William,Smith,M,43,San Jose,E78,Hyperlipidemia,Atorvastatin,5/4/2025,5/10/2025,7.6,149,Yes,Private
+P0090,William,Williams,F,39,San Jose,E11,Type 2 Diabetes,Metformin,6/15/2025,6/19/2025,5,94,Yes,Medicaid
+P0091,Isabella,Brown,F,56,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,3/6/2025,3/9/2025,7.7,83,No,Medicare
+P0092,Olivia,Jones,M,66,Chicago,E11,Type 2 Diabetes,Metformin,2/21/2025,2/24/2025,6,139,Yes,Medicaid
+P0093,Liam,Davis,F,85,San Diego,I21,Acute Myocardial Infarction,Aspirin,5/10/2025,5/16/2025,6.6,115,No,Medicaid
+P0094,William,Brown,F,71,Jacksonville,E11,Type 2 Diabetes,Metformin,4/1/2025,4/8/2025,8.9,170,Yes,Private
+P0095,Liam,Miller,M,72,Los Angeles,I21,Acute Myocardial Infarction,Aspirin,3/17/2025,3/24/2025,6.1,146,No,Private
+P0096,Isabella,Martinez,M,71,Phoenix,J45,Asthma,Albuterol,5/22/2025,5/27/2025,5.6,178,Yes,Private
+P0097,Ava,Williams,F,77,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,1/7/2025,1/14/2025,6.2,83,No,Medicaid
+P0098,Isabella,Smith,F,74,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,4/16/2025,4/20/2025,6.3,160,Yes,Medicaid
+P0099,Isabella,Garcia,F,57,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,6/15/2025,6/18/2025,8.4,153,Yes,Medicaid
+P0100,Isabella,Miller,M,49,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,3/7/2025,3/14/2025,5.7,146,No,Private
+P0101,Liam,Brown,F,84,San Jose,E78,Hyperlipidemia,Atorvastatin,1/16/2025,1/20/2025,9.9,136,Yes,Medicaid
+P0102,William,Jones,M,38,San Jose,I21,Acute Myocardial Infarction,Aspirin,5/22/2025,5/26/2025,7.1,138,No,Medicare
+P0103,Olivia,Rodriguez,F,75,New York,E11,Type 2 Diabetes,Metformin,1/7/2025,1/11/2025,5.4,132,No,Medicaid
+P0104,Emma,Smith,M,61,Los Angeles,I21,Acute Myocardial Infarction,Aspirin,2/23/2025,2/27/2025,9.7,101,No,Medicaid
+P0105,John,Garcia,M,55,Dallas,I10,Hypertension,Lisinopril,4/18/2025,4/24/2025,7.7,162,Yes,Private
+P0106,Sophia,Martinez,M,46,Chicago,N39,Urinary Tract Infection,Nitrofurantoin,4/10/2025,4/14/2025,6.4,113,No,Medicaid
+P0107,Emma,Martinez,M,56,Los Angeles,I21,Acute Myocardial Infarction,Aspirin,1/7/2025,1/8/2025,6.3,159,Yes,Medicaid
+P0108,Ava,Miller,F,47,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,1/18/2025,1/21/2025,6.2,131,Yes,Medicare
+P0109,John,Garcia,M,52,Dallas,J45,Asthma,Albuterol,4/21/2025,4/24/2025,6.5,89,No,Private
+P0110,William,Johnson,M,30,Chicago,J18,Pneumonia,Azithromycin,5/24/2025,5/29/2025,8.8,88,No,Medicaid
+P0111,Liam,Rodriguez,M,67,Jacksonville,E78,Hyperlipidemia,Atorvastatin,3/8/2025,3/9/2025,8.4,126,No,Private
+P0112,Liam,Williams,M,77,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,5/21/2025,5/23/2025,5,95,Yes,Private
+P0113,John,Johnson,M,80,San Diego,I10,Hypertension,Lisinopril,5/24/2025,5/30/2025,8.9,112,Yes,Medicare
+P0114,Olivia,Garcia,M,38,Jacksonville,E78,Hyperlipidemia,Atorvastatin,2/1/2025,2/2/2025,6.2,94,No,Medicare
+P0115,Olivia,Davis,F,32,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,3/11/2025,3/12/2025,6.3,169,Yes,Medicaid
+P0116,Liam,Davis,F,68,Austin,I10,Hypertension,Lisinopril,5/7/2025,5/11/2025,9.3,160,Yes,Medicaid
+P0117,Emma,Miller,F,39,San Jose,I25,Chronic Ischemic Heart Disease,Metoprolol,6/15/2025,6/21/2025,6.3,83,Yes,Private
+P0118,Emma,Smith,M,26,Chicago,E78,Hyperlipidemia,Atorvastatin,5/21/2025,5/28/2025,7.4,155,Yes,Medicaid
+P0119,Olivia,Davis,M,36,Dallas,I25,Chronic Ischemic Heart Disease,Metoprolol,2/17/2025,2/21/2025,9.2,112,No,Medicaid
+P0120,James,Johnson,M,74,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,1/11/2025,1/18/2025,5.1,142,No,Medicaid
+P0121,Olivia,Williams,F,84,New York,J18,Pneumonia,Azithromycin,5/27/2025,5/30/2025,7.8,152,No,Medicaid
+P0122,Noah,Smith,F,84,Dallas,I10,Hypertension,Lisinopril,1/13/2025,1/14/2025,9.3,122,Yes,Medicare
+P0123,Sophia,Davis,M,70,Jacksonville,I25,Chronic Ischemic Heart Disease,Metoprolol,1/11/2025,1/12/2025,8.8,123,No,Medicare
+P0124,Sophia,Rodriguez,F,41,Dallas,E11,Type 2 Diabetes,Metformin,3/9/2025,3/16/2025,9.3,168,Yes,Medicare
+P0125,Emma,Jones,F,66,San Diego,E11,Type 2 Diabetes,Metformin,2/9/2025,2/11/2025,8.8,171,Yes,Medicaid
+P0126,Sophia,Davis,M,25,Dallas,I25,Chronic Ischemic Heart Disease,Metoprolol,1/26/2025,1/30/2025,5.7,149,Yes,Medicaid
+P0127,Noah,Williams,M,53,Chicago,E11,Type 2 Diabetes,Metformin,3/11/2025,3/18/2025,8,80,Yes,Medicaid
+P0128,James,Miller,F,47,San Diego,I21,Acute Myocardial Infarction,Aspirin,1/7/2025,1/11/2025,7.3,159,No,Private
+P0129,Isabella,Rodriguez,M,68,Chicago,I21,Acute Myocardial Infarction,Aspirin,5/5/2025,5/9/2025,6.4,110,No,Medicare
+P0130,Isabella,Garcia,F,57,San Jose,I10,Hypertension,Lisinopril,3/13/2025,3/18/2025,5.9,174,No,Private
+P0131,Liam,Brown,F,39,Austin,J45,Asthma,Albuterol,4/9/2025,4/10/2025,5.3,89,Yes,Private
+P0132,Noah,Rodriguez,F,75,San Jose,E11,Type 2 Diabetes,Metformin,3/16/2025,3/17/2025,5.3,144,Yes,Medicaid
+P0133,Emma,Williams,M,34,Phoenix,N39,Urinary Tract Infection,Nitrofurantoin,3/1/2025,3/7/2025,6.6,112,Yes,Private
+P0134,Olivia,Williams,F,65,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,5/22/2025,5/28/2025,8.6,155,No,Medicare
+P0135,Liam,Miller,F,65,San Diego,I21,Acute Myocardial Infarction,Aspirin,6/23/2025,6/26/2025,5.4,89,Yes,Private
+P0136,Olivia,Johnson,F,63,Los Angeles,I10,Hypertension,Lisinopril,5/4/2025,5/9/2025,8.1,92,Yes,Medicare
+P0137,John,Johnson,M,60,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,6/18/2025,6/21/2025,9.5,131,Yes,Private
+P0138,John,Rodriguez,F,72,Jacksonville,J18,Pneumonia,Azithromycin,6/26/2025,7/1/2025,7.8,160,No,Medicaid
+P0139,Isabella,Miller,F,57,Dallas,J45,Asthma,Albuterol,3/19/2025,3/26/2025,8.2,99,No,Private
+P0140,Olivia,Johnson,F,85,Dallas,I25,Chronic Ischemic Heart Disease,Metoprolol,1/1/2025,1/8/2025,8.6,120,No,Medicare
+P0141,Sophia,Miller,M,32,Jacksonville,I25,Chronic Ischemic Heart Disease,Metoprolol,6/21/2025,6/25/2025,5.3,102,No,Medicaid
+P0142,Sophia,Rodriguez,F,27,Phoenix,E11,Type 2 Diabetes,Metformin,5/22/2025,5/23/2025,6.5,170,No,Medicare
+P0143,William,Smith,M,66,San Jose,E11,Type 2 Diabetes,Metformin,3/28/2025,3/31/2025,6.4,112,No,Medicare
+P0144,Noah,Johnson,M,51,San Diego,J45,Asthma,Albuterol,3/7/2025,3/13/2025,5.5,179,Yes,Medicaid
+P0145,James,Johnson,F,71,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,6/2/2025,6/8/2025,9.8,105,No,Medicare
+P0146,Liam,Garcia,M,84,Austin,E11,Type 2 Diabetes,Metformin,3/4/2025,3/9/2025,7.8,106,No,Medicare
+P0147,Isabella,Rodriguez,F,45,Los Angeles,E11,Type 2 Diabetes,Metformin,2/20/2025,2/27/2025,6.2,165,Yes,Private
+P0148,Sophia,Smith,M,80,Jacksonville,J45,Asthma,Albuterol,1/2/2025,1/8/2025,7.4,118,No,Medicaid
+P0149,Liam,Jones,F,56,Houston,N39,Urinary Tract Infection,Nitrofurantoin,4/14/2025,4/21/2025,6.6,168,No,Medicare
+P0150,Olivia,Jones,F,53,Dallas,E78,Hyperlipidemia,Atorvastatin,3/2/2025,3/4/2025,7.9,116,Yes,Medicaid
+P0151,Isabella,Garcia,F,50,Los Angeles,I21,Acute Myocardial Infarction,Aspirin,4/4/2025,4/10/2025,5.1,105,Yes,Medicaid
+P0152,Ava,Smith,M,54,Chicago,E78,Hyperlipidemia,Atorvastatin,1/27/2025,1/28/2025,6.1,80,Yes,Medicaid
+P0153,William,Johnson,M,53,Dallas,J18,Pneumonia,Azithromycin,1/1/2025,1/6/2025,6.8,100,No,Medicaid
+P0154,Emma,Davis,F,80,Jacksonville,J18,Pneumonia,Azithromycin,3/23/2025,3/29/2025,5.2,138,No,Medicare
+P0155,Emma,Martinez,F,49,San Diego,I21,Acute Myocardial Infarction,Aspirin,5/15/2025,5/19/2025,8.8,94,Yes,Private
+P0156,Ava,Davis,F,84,Austin,E11,Type 2 Diabetes,Metformin,6/17/2025,6/24/2025,6.7,105,Yes,Medicaid
+P0157,William,Brown,F,54,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,1/22/2025,1/28/2025,9.6,97,Yes,Medicare
+P0158,William,Martinez,M,35,Los Angeles,E78,Hyperlipidemia,Atorvastatin,1/14/2025,1/15/2025,7.6,94,Yes,Medicare
+P0159,Isabella,Rodriguez,F,74,Houston,E78,Hyperlipidemia,Atorvastatin,4/3/2025,4/8/2025,5.6,119,Yes,Private
+P0160,Noah,Smith,M,57,Jacksonville,E11,Type 2 Diabetes,Metformin,4/5/2025,4/6/2025,8.8,80,Yes,Medicare
+P0161,Noah,Garcia,M,54,New York,J45,Asthma,Albuterol,4/13/2025,4/17/2025,5.5,98,Yes,Medicare
+P0162,Liam,Smith,M,72,San Jose,I10,Hypertension,Lisinopril,2/14/2025,2/20/2025,9.4,94,No,Private
+P0163,John,Rodriguez,F,78,New York,E78,Hyperlipidemia,Atorvastatin,1/12/2025,1/14/2025,8,160,Yes,Medicare
+P0164,Emma,Williams,F,61,Jacksonville,J18,Pneumonia,Azithromycin,2/1/2025,2/6/2025,8.5,176,Yes,Medicaid
+P0165,Sophia,Garcia,M,69,Jacksonville,J45,Asthma,Albuterol,1/8/2025,1/9/2025,8.3,170,Yes,Medicare
+P0166,Emma,Davis,F,70,Chicago,E78,Hyperlipidemia,Atorvastatin,1/26/2025,2/1/2025,9.7,157,No,Medicaid
+P0167,Isabella,Miller,M,33,Austin,N39,Urinary Tract Infection,Nitrofurantoin,4/26/2025,5/1/2025,8,116,No,Medicaid
+P0168,William,Davis,F,57,Los Angeles,J18,Pneumonia,Azithromycin,2/10/2025,2/16/2025,8.9,152,Yes,Medicare
+P0169,Noah,Martinez,F,64,New York,J45,Asthma,Albuterol,6/7/2025,6/10/2025,6,171,Yes,Private
+P0170,Olivia,Jones,M,82,Phoenix,I21,Acute Myocardial Infarction,Aspirin,3/30/2025,4/3/2025,6.3,85,Yes,Medicaid
+P0171,William,Rodriguez,M,66,San Diego,J18,Pneumonia,Azithromycin,5/23/2025,5/28/2025,7.2,80,No,Private
+P0172,William,Garcia,F,39,Houston,E11,Type 2 Diabetes,Metformin,3/12/2025,3/17/2025,8.6,111,Yes,Medicaid
+P0173,Isabella,Rodriguez,F,34,Jacksonville,E78,Hyperlipidemia,Atorvastatin,6/4/2025,6/11/2025,6.1,110,Yes,Medicare
+P0174,John,Martinez,F,35,New York,J18,Pneumonia,Azithromycin,5/6/2025,5/10/2025,6.5,126,No,Private
+P0175,Ava,Martinez,F,57,San Jose,J18,Pneumonia,Azithromycin,6/20/2025,6/26/2025,6.5,128,No,Private
+P0176,William,Johnson,M,46,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,1/15/2025,1/16/2025,5.9,134,No,Medicaid
+P0177,Noah,Miller,F,48,Houston,I21,Acute Myocardial Infarction,Aspirin,6/4/2025,6/8/2025,6.2,174,No,Medicare
+P0178,Liam,Johnson,M,48,Phoenix,J45,Asthma,Albuterol,6/7/2025,6/12/2025,6.6,179,No,Medicaid
+P0179,Ava,Jones,F,73,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,3/29/2025,4/4/2025,6.9,159,Yes,Medicaid
+P0180,John,Rodriguez,F,47,Jacksonville,J45,Asthma,Albuterol,6/2/2025,6/4/2025,5.3,88,Yes,Private
+P0181,John,Smith,M,50,Phoenix,E78,Hyperlipidemia,Atorvastatin,2/6/2025,2/11/2025,7.5,87,No,Medicare
+P0182,Noah,Martinez,F,32,San Jose,E11,Type 2 Diabetes,Metformin,5/26/2025,6/1/2025,8.4,117,Yes,Medicaid
+P0183,Ava,Smith,M,80,New York,N39,Urinary Tract Infection,Nitrofurantoin,5/5/2025,5/8/2025,9.8,146,No,Medicaid
+P0184,John,Jones,M,72,San Jose,I10,Hypertension,Lisinopril,5/10/2025,5/17/2025,7,132,Yes,Medicare
+P0185,Olivia,Martinez,M,69,San Diego,E78,Hyperlipidemia,Atorvastatin,4/20/2025,4/21/2025,8.5,91,Yes,Private
+P0186,John,Johnson,F,63,Jacksonville,I10,Hypertension,Lisinopril,2/18/2025,2/24/2025,8.4,161,Yes,Medicare
+P0187,William,Jones,M,85,San Jose,I10,Hypertension,Lisinopril,4/3/2025,4/8/2025,6.5,125,Yes,Private
+P0188,Emma,Jones,F,26,San Jose,J18,Pneumonia,Azithromycin,3/10/2025,3/11/2025,7.7,151,Yes,Private
+P0189,John,Martinez,M,30,Los Angeles,I25,Chronic Ischemic Heart Disease,Metoprolol,3/26/2025,3/31/2025,9.8,119,No,Private
+P0190,John,Davis,M,59,New York,I21,Acute Myocardial Infarction,Aspirin,5/14/2025,5/21/2025,6.3,109,Yes,Medicaid
+P0191,John,Jones,F,72,Houston,J45,Asthma,Albuterol,2/24/2025,3/2/2025,6.6,88,No,Medicare
+P0192,Noah,Brown,M,27,Dallas,I21,Acute Myocardial Infarction,Aspirin,3/20/2025,3/26/2025,7.4,162,Yes,Medicaid
+P0193,Emma,Garcia,F,68,Austin,I21,Acute Myocardial Infarction,Aspirin,6/22/2025,6/27/2025,9.6,87,No,Medicaid
+P0194,Olivia,Jones,M,62,Austin,I10,Hypertension,Lisinopril,3/7/2025,3/11/2025,5.6,89,Yes,Private
+P0195,Liam,Smith,M,36,Chicago,J45,Asthma,Albuterol,6/24/2025,6/25/2025,6,93,Yes,Medicaid
+P0196,Liam,Miller,M,69,Los Angeles,I10,Hypertension,Lisinopril,1/18/2025,1/19/2025,8,145,Yes,Medicaid
+P0197,John,Rodriguez,F,73,Austin,J18,Pneumonia,Azithromycin,6/3/2025,6/10/2025,8.8,152,No,Medicare
+P0198,John,Rodriguez,M,65,Austin,E78,Hyperlipidemia,Atorvastatin,5/8/2025,5/12/2025,8.8,82,No,Medicare
+P0199,Isabella,Davis,F,38,Jacksonville,I10,Hypertension,Lisinopril,2/26/2025,3/3/2025,6.2,100,No,Medicaid
+P0200,Isabella,Miller,M,65,Dallas,I10,Hypertension,Lisinopril,3/17/2025,3/20/2025,5.1,116,Yes,Medicaid
+P0201,James,Rodriguez,F,38,Austin,E78,Hyperlipidemia,Atorvastatin,2/11/2025,2/16/2025,9.2,90,No,Medicare
+P0202,Emma,Johnson,M,52,Chicago,I21,Acute Myocardial Infarction,Aspirin,5/13/2025,5/19/2025,6.4,111,No,Private
+P0203,Noah,Williams,M,83,Dallas,E78,Hyperlipidemia,Atorvastatin,6/1/2025,6/2/2025,8.3,164,No,Medicare
+P0204,Sophia,Smith,F,25,New York,I10,Hypertension,Lisinopril,4/20/2025,4/26/2025,8.4,88,Yes,Private
+P0205,John,Rodriguez,M,69,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,6/8/2025,6/12/2025,8.5,144,No,Private
+P0206,Sophia,Martinez,M,26,Jacksonville,J45,Asthma,Albuterol,6/17/2025,6/19/2025,8.2,110,No,Medicaid
+P0207,Emma,Garcia,F,76,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,4/24/2025,4/25/2025,8.6,104,No,Medicaid
+P0208,Olivia,Miller,M,84,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,3/2/2025,3/6/2025,7.5,146,Yes,Medicare
+P0209,John,Garcia,F,85,Houston,I21,Acute Myocardial Infarction,Aspirin,3/27/2025,3/31/2025,8.7,82,Yes,Medicaid
+P0210,William,Jones,F,41,Austin,E11,Type 2 Diabetes,Metformin,6/22/2025,6/29/2025,8.5,138,No,Medicare
+P0211,Emma,Miller,M,51,Dallas,I10,Hypertension,Lisinopril,2/11/2025,2/14/2025,7.4,120,Yes,Medicare
+P0212,James,Jones,M,38,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,6/20/2025,6/24/2025,8.3,96,No,Medicaid
+P0213,Sophia,Martinez,F,68,San Diego,J45,Asthma,Albuterol,6/3/2025,6/10/2025,7.5,96,No,Medicare
+P0214,John,Johnson,F,74,Los Angeles,N39,Urinary Tract Infection,Nitrofurantoin,2/24/2025,3/2/2025,8.2,139,No,Medicare
+P0215,Sophia,Davis,F,42,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,1/15/2025,1/16/2025,9.9,165,No,Private
+P0216,Noah,Johnson,M,35,Chicago,I10,Hypertension,Lisinopril,5/10/2025,5/16/2025,5.1,178,Yes,Medicare
+P0217,Isabella,Rodriguez,M,37,Jacksonville,J45,Asthma,Albuterol,5/8/2025,5/11/2025,7.8,147,No,Medicare
+P0218,James,Johnson,M,84,Dallas,J18,Pneumonia,Azithromycin,4/12/2025,4/15/2025,7.6,171,No,Medicare
+P0219,William,Johnson,M,79,San Jose,J18,Pneumonia,Azithromycin,6/8/2025,6/9/2025,5.9,149,Yes,Private
+P0220,John,Smith,F,39,Chicago,I21,Acute Myocardial Infarction,Aspirin,6/17/2025,6/23/2025,5.9,123,Yes,Medicare
+P0221,William,Martinez,F,46,Los Angeles,I21,Acute Myocardial Infarction,Aspirin,2/7/2025,2/8/2025,5.5,97,Yes,Medicaid
+P0222,John,Garcia,M,26,Houston,N39,Urinary Tract Infection,Nitrofurantoin,6/12/2025,6/19/2025,9.7,88,No,Medicare
+P0223,William,Garcia,F,49,Chicago,J18,Pneumonia,Azithromycin,6/17/2025,6/24/2025,7.7,99,Yes,Medicaid
+P0224,Emma,Brown,M,54,Phoenix,J18,Pneumonia,Azithromycin,6/11/2025,6/17/2025,5.7,139,No,Medicaid
+P0225,Noah,Smith,M,71,San Jose,J45,Asthma,Albuterol,4/29/2025,5/1/2025,7.5,81,No,Medicare
+P0226,Noah,Jones,M,51,Phoenix,I10,Hypertension,Lisinopril,2/4/2025,2/9/2025,9.4,90,Yes,Medicare
+P0227,Ava,Brown,F,44,Chicago,E78,Hyperlipidemia,Atorvastatin,6/26/2025,7/2/2025,6.6,132,No,Private
+P0228,Noah,Brown,M,34,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,4/10/2025,4/13/2025,6,88,No,Medicare
+P0229,Emma,Rodriguez,F,28,San Jose,J18,Pneumonia,Azithromycin,3/18/2025,3/23/2025,9.3,103,No,Medicaid
+P0230,Noah,Brown,M,66,San Jose,I21,Acute Myocardial Infarction,Aspirin,4/4/2025,4/10/2025,9.6,128,No,Private
+P0231,William,Jones,F,63,Chicago,I10,Hypertension,Lisinopril,2/9/2025,2/10/2025,7.2,89,No,Medicare
+P0232,Emma,Williams,M,25,Houston,I10,Hypertension,Lisinopril,4/19/2025,4/21/2025,6.9,148,No,Medicare
+P0233,Noah,Johnson,F,40,San Jose,E78,Hyperlipidemia,Atorvastatin,6/3/2025,6/9/2025,5.1,172,No,Private
+P0234,Ava,Jones,M,49,Austin,I10,Hypertension,Lisinopril,2/10/2025,2/16/2025,8.5,122,Yes,Private
+P0235,Isabella,Miller,M,74,New York,E78,Hyperlipidemia,Atorvastatin,6/21/2025,6/24/2025,8.3,170,Yes,Medicaid
+P0236,Emma,Jones,M,76,Chicago,E78,Hyperlipidemia,Atorvastatin,6/14/2025,6/20/2025,7.8,156,Yes,Private
+P0237,Ava,Miller,F,44,San Diego,E11,Type 2 Diabetes,Metformin,4/20/2025,4/27/2025,7.6,101,Yes,Medicare
+P0238,Isabella,Garcia,M,66,New York,I10,Hypertension,Lisinopril,1/9/2025,1/14/2025,8.4,106,No,Private
+P0239,John,Smith,M,27,Dallas,E78,Hyperlipidemia,Atorvastatin,5/3/2025,5/5/2025,9.7,94,No,Private
+P0240,Sophia,Brown,M,79,New York,I10,Hypertension,Lisinopril,1/1/2025,1/2/2025,9.9,104,Yes,Private
+P0241,John,Davis,M,34,New York,E11,Type 2 Diabetes,Metformin,1/14/2025,1/15/2025,8.7,165,No,Private
+P0242,Noah,Smith,M,48,Jacksonville,I25,Chronic Ischemic Heart Disease,Metoprolol,1/4/2025,1/9/2025,9.9,171,Yes,Medicare
+P0243,Ava,Garcia,F,30,Phoenix,E11,Type 2 Diabetes,Metformin,5/21/2025,5/22/2025,5.4,146,Yes,Medicare
+P0244,Sophia,Brown,M,71,Jacksonville,E78,Hyperlipidemia,Atorvastatin,1/30/2025,2/3/2025,9.7,135,No,Medicare
+P0245,Ava,Johnson,M,69,Los Angeles,J45,Asthma,Albuterol,2/16/2025,2/17/2025,7.3,109,Yes,Private
+P0246,James,Johnson,M,60,Jacksonville,I21,Acute Myocardial Infarction,Aspirin,5/23/2025,5/24/2025,9.7,134,Yes,Medicare
+P0247,Ava,Garcia,M,28,Jacksonville,E11,Type 2 Diabetes,Metformin,5/1/2025,5/8/2025,9.5,121,Yes,Medicaid
+P0248,Isabella,Johnson,M,35,San Diego,J45,Asthma,Albuterol,1/8/2025,1/12/2025,8.8,83,No,Medicaid
+P0249,Isabella,Martinez,F,78,Dallas,I25,Chronic Ischemic Heart Disease,Metoprolol,2/22/2025,3/1/2025,7.3,105,Yes,Medicare
+P0250,Liam,Brown,M,84,Phoenix,N39,Urinary Tract Infection,Nitrofurantoin,5/31/2025,6/6/2025,5.5,132,Yes,Medicare
+P0251,Ava,Jones,M,79,San Diego,I10,Hypertension,Lisinopril,4/28/2025,5/3/2025,5.9,88,No,Private
+P0252,Isabella,Jones,F,28,San Diego,I25,Chronic Ischemic Heart Disease,Metoprolol,6/19/2025,6/20/2025,6.8,116,No,Medicare
+P0253,William,Martinez,F,62,San Diego,I25,Chronic Ischemic Heart Disease,Metoprolol,3/5/2025,3/12/2025,6.7,148,No,Medicare
+P0254,Emma,Martinez,M,78,Phoenix,E11,Type 2 Diabetes,Metformin,3/6/2025,3/9/2025,5.8,148,No,Medicaid
+P0255,John,Martinez,M,76,San Jose,I21,Acute Myocardial Infarction,Aspirin,4/5/2025,4/8/2025,6.7,101,Yes,Medicare
+P0256,Noah,Rodriguez,M,52,Austin,E78,Hyperlipidemia,Atorvastatin,4/13/2025,4/18/2025,6,133,Yes,Medicaid
+P0257,John,Martinez,M,41,Austin,E78,Hyperlipidemia,Atorvastatin,4/12/2025,4/14/2025,6.1,86,No,Medicaid
+P0258,Noah,Smith,F,73,Jacksonville,E11,Type 2 Diabetes,Metformin,3/4/2025,3/7/2025,5.2,112,Yes,Private
+P0259,John,Miller,M,41,Jacksonville,E11,Type 2 Diabetes,Metformin,1/31/2025,2/2/2025,9.7,97,No,Medicare
+P0260,John,Rodriguez,M,51,New York,J18,Pneumonia,Azithromycin,3/11/2025,3/18/2025,5.3,144,No,Medicare
+P0261,William,Smith,M,48,Houston,J18,Pneumonia,Azithromycin,6/29/2025,7/4/2025,8.2,137,No,Medicaid
+P0262,William,Rodriguez,M,49,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,4/23/2025,4/26/2025,7,163,Yes,Private
+P0263,Olivia,Garcia,M,71,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,1/7/2025,1/12/2025,7.3,109,No,Medicare
+P0264,Isabella,Smith,M,53,Phoenix,J45,Asthma,Albuterol,5/18/2025,5/21/2025,9.9,133,No,Medicare
+P0265,Noah,Davis,M,84,Dallas,I21,Acute Myocardial Infarction,Aspirin,1/29/2025,1/30/2025,9.4,140,Yes,Medicaid
+P0266,James,Johnson,F,77,San Diego,I10,Hypertension,Lisinopril,3/30/2025,4/2/2025,5.5,145,No,Medicare
+P0267,Liam,Smith,F,42,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,1/12/2025,1/19/2025,5.2,148,No,Medicare
+P0268,William,Smith,F,78,Chicago,E78,Hyperlipidemia,Atorvastatin,3/21/2025,3/23/2025,5.2,120,Yes,Private
+P0269,William,Smith,M,75,Chicago,E11,Type 2 Diabetes,Metformin,3/2/2025,3/7/2025,7.9,141,No,Medicare
+P0270,Liam,Rodriguez,F,85,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,3/15/2025,3/17/2025,9.6,81,Yes,Medicaid
+P0271,Olivia,Williams,M,71,Houston,N39,Urinary Tract Infection,Nitrofurantoin,4/10/2025,4/11/2025,9.2,100,No,Private
+P0272,Olivia,Jones,M,60,Chicago,N39,Urinary Tract Infection,Nitrofurantoin,4/2/2025,4/8/2025,9.7,161,Yes,Medicare
+P0273,William,Martinez,F,64,New York,I21,Acute Myocardial Infarction,Aspirin,6/15/2025,6/17/2025,9.6,115,Yes,Medicare
+P0274,William,Johnson,M,79,Houston,I10,Hypertension,Lisinopril,3/29/2025,4/5/2025,7.7,142,No,Private
+P0275,Noah,Smith,F,47,Austin,I10,Hypertension,Lisinopril,6/15/2025,6/21/2025,5.6,171,No,Medicare
+P0276,Liam,Rodriguez,M,42,San Diego,E78,Hyperlipidemia,Atorvastatin,1/1/2025,1/8/2025,7,135,Yes,Medicare
+P0277,Noah,Garcia,M,28,Phoenix,E11,Type 2 Diabetes,Metformin,6/27/2025,7/3/2025,8.5,102,Yes,Medicare
+P0278,Emma,Garcia,M,74,Chicago,E78,Hyperlipidemia,Atorvastatin,6/9/2025,6/14/2025,9.5,147,No,Medicare
+P0279,Liam,Jones,F,67,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,1/1/2025,1/4/2025,9.1,146,Yes,Private
+P0280,Olivia,Brown,M,83,New York,E78,Hyperlipidemia,Atorvastatin,1/1/2025,1/3/2025,9.5,116,No,Medicaid
+P0281,Olivia,Martinez,F,33,Los Angeles,E78,Hyperlipidemia,Atorvastatin,2/2/2025,2/8/2025,9.4,127,No,Private
+P0282,James,Davis,F,39,Austin,J18,Pneumonia,Azithromycin,2/28/2025,3/7/2025,6,110,Yes,Private
+P0283,James,Davis,M,84,Jacksonville,E78,Hyperlipidemia,Atorvastatin,6/7/2025,6/13/2025,9.7,110,Yes,Medicaid
+P0284,Olivia,Williams,F,82,Chicago,I21,Acute Myocardial Infarction,Aspirin,3/25/2025,4/1/2025,6.6,154,Yes,Medicare
+P0285,James,Johnson,F,47,San Diego,E78,Hyperlipidemia,Atorvastatin,5/1/2025,5/5/2025,9.2,101,No,Medicaid
+P0286,Noah,Miller,M,73,Los Angeles,N39,Urinary Tract Infection,Nitrofurantoin,1/29/2025,2/1/2025,7.9,96,No,Private
+P0287,John,Jones,M,25,Austin,E11,Type 2 Diabetes,Metformin,3/30/2025,4/6/2025,8.3,161,No,Medicare
+P0288,Noah,Miller,M,65,San Jose,E11,Type 2 Diabetes,Metformin,1/4/2025,1/5/2025,6.7,105,Yes,Medicare
+P0289,Noah,Davis,F,67,New York,E78,Hyperlipidemia,Atorvastatin,3/21/2025,3/27/2025,9.9,171,No,Private
+P0290,Ava,Jones,F,52,Los Angeles,E78,Hyperlipidemia,Atorvastatin,3/4/2025,3/10/2025,7,90,Yes,Private
+P0291,James,Smith,M,69,San Jose,I21,Acute Myocardial Infarction,Aspirin,5/19/2025,5/21/2025,9.4,103,Yes,Medicare
+P0292,Ava,Martinez,M,67,Austin,E78,Hyperlipidemia,Atorvastatin,5/20/2025,5/22/2025,5.5,162,No,Medicaid
+P0293,Isabella,Johnson,M,69,Chicago,I21,Acute Myocardial Infarction,Aspirin,6/1/2025,6/4/2025,9,86,No,Medicaid
+P0294,Liam,Garcia,M,28,Jacksonville,I21,Acute Myocardial Infarction,Aspirin,2/25/2025,2/26/2025,8.5,144,Yes,Private
+P0295,Ava,Brown,F,47,Austin,N39,Urinary Tract Infection,Nitrofurantoin,1/14/2025,1/16/2025,7.6,169,Yes,Medicaid
+P0296,Sophia,Smith,M,49,Austin,I10,Hypertension,Lisinopril,3/8/2025,3/15/2025,5.5,173,Yes,Medicare
+P0297,Ava,Rodriguez,M,44,Dallas,J45,Asthma,Albuterol,3/9/2025,3/10/2025,9.5,140,No,Private
+P0298,William,Garcia,F,81,Los Angeles,E78,Hyperlipidemia,Atorvastatin,6/5/2025,6/7/2025,9.7,91,Yes,Medicare
+P0299,Noah,Smith,M,84,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,2/21/2025,2/24/2025,5.5,170,No,Private
+P0300,Emma,Brown,F,27,Phoenix,N39,Urinary Tract Infection,Nitrofurantoin,4/27/2025,4/28/2025,5.9,91,No,Medicare
+P0301,John,Smith,F,63,Phoenix,N39,Urinary Tract Infection,Nitrofurantoin,3/16/2025,3/17/2025,9.1,162,No,Medicaid
+P0302,Noah,Jones,F,76,Austin,I10,Hypertension,Lisinopril,2/20/2025,2/25/2025,5.1,91,Yes,Private
+P0303,Olivia,Jones,M,50,San Jose,J45,Asthma,Albuterol,4/11/2025,4/12/2025,9.6,171,No,Private
+P0304,Isabella,Garcia,M,27,San Jose,I25,Chronic Ischemic Heart Disease,Metoprolol,1/9/2025,1/15/2025,8.3,102,No,Medicare
+P0305,Emma,Brown,M,33,Phoenix,J18,Pneumonia,Azithromycin,4/29/2025,5/5/2025,5.2,134,No,Private
+P0306,Isabella,Martinez,F,80,Phoenix,I21,Acute Myocardial Infarction,Aspirin,2/16/2025,2/17/2025,9.2,151,No,Medicaid
+P0307,Emma,Miller,F,37,Houston,I10,Hypertension,Lisinopril,3/23/2025,3/27/2025,7.8,130,Yes,Private
+P0308,Emma,Rodriguez,F,83,Phoenix,J45,Asthma,Albuterol,4/1/2025,4/5/2025,6.1,178,No,Medicare
+P0309,James,Garcia,F,54,Jacksonville,I21,Acute Myocardial Infarction,Aspirin,5/22/2025,5/25/2025,7.9,147,No,Private
+P0310,Sophia,Rodriguez,F,31,Chicago,I21,Acute Myocardial Infarction,Aspirin,6/13/2025,6/15/2025,5.1,159,No,Private
+P0311,William,Williams,M,38,Chicago,I21,Acute Myocardial Infarction,Aspirin,4/13/2025,4/15/2025,6.9,95,Yes,Private
+P0312,Noah,Martinez,F,40,San Diego,E11,Type 2 Diabetes,Metformin,6/2/2025,6/9/2025,7.6,88,Yes,Private
+P0313,William,Davis,M,77,New York,N39,Urinary Tract Infection,Nitrofurantoin,1/10/2025,1/16/2025,5.9,80,No,Medicaid
+P0314,Liam,Rodriguez,F,48,San Diego,I21,Acute Myocardial Infarction,Aspirin,1/6/2025,1/12/2025,6,111,No,Private
+P0315,Sophia,Johnson,F,40,San Diego,E78,Hyperlipidemia,Atorvastatin,5/27/2025,5/30/2025,6.6,118,Yes,Medicare
+P0316,James,Johnson,F,43,Phoenix,I10,Hypertension,Lisinopril,5/9/2025,5/13/2025,8.3,132,Yes,Private
+P0317,William,Rodriguez,F,29,Jacksonville,I21,Acute Myocardial Infarction,Aspirin,2/18/2025,2/25/2025,9.7,136,No,Medicaid
+P0318,Sophia,Smith,F,62,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,6/17/2025,6/23/2025,6.8,167,No,Private
+P0319,Noah,Johnson,M,53,Austin,I21,Acute Myocardial Infarction,Aspirin,5/19/2025,5/20/2025,9.9,142,No,Medicare
+P0320,Sophia,Miller,M,35,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,6/27/2025,6/28/2025,7.5,172,Yes,Medicare
+P0321,Olivia,Smith,M,38,Dallas,I21,Acute Myocardial Infarction,Aspirin,1/31/2025,2/6/2025,8.1,159,No,Medicare
+P0322,Liam,Garcia,M,47,Chicago,J18,Pneumonia,Azithromycin,2/12/2025,2/13/2025,6.3,147,No,Private
+P0323,Liam,Jones,F,47,San Jose,E11,Type 2 Diabetes,Metformin,3/31/2025,4/7/2025,8.2,106,No,Private
+P0324,Emma,Martinez,M,49,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,4/30/2025,5/2/2025,5.4,156,No,Private
+P0325,Noah,Johnson,F,28,Houston,N39,Urinary Tract Infection,Nitrofurantoin,6/15/2025,6/21/2025,5.2,160,Yes,Private
+P0326,Sophia,Miller,M,39,Phoenix,I21,Acute Myocardial Infarction,Aspirin,3/4/2025,3/6/2025,6.4,177,Yes,Medicaid
+P0327,James,Brown,M,66,Jacksonville,J18,Pneumonia,Azithromycin,6/27/2025,6/29/2025,8.3,148,Yes,Medicare
+P0328,Sophia,Brown,M,38,San Jose,E11,Type 2 Diabetes,Metformin,2/18/2025,2/23/2025,9.8,118,No,Private
+P0329,Olivia,Brown,M,48,Dallas,I25,Chronic Ischemic Heart Disease,Metoprolol,2/17/2025,2/22/2025,8.3,103,Yes,Medicaid
+P0330,Emma,Johnson,M,58,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,4/27/2025,4/29/2025,6.2,129,Yes,Medicaid
+P0331,Sophia,Miller,F,52,New York,E11,Type 2 Diabetes,Metformin,3/25/2025,3/26/2025,10,146,Yes,Private
+P0332,Liam,Davis,M,37,San Jose,I10,Hypertension,Lisinopril,3/26/2025,4/2/2025,6.4,104,No,Medicaid
+P0333,William,Garcia,F,64,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,3/30/2025,4/2/2025,5.7,173,No,Medicare
+P0334,Ava,Williams,M,59,Chicago,J18,Pneumonia,Azithromycin,5/17/2025,5/18/2025,8,92,Yes,Private
+P0335,William,Williams,F,78,Jacksonville,I25,Chronic Ischemic Heart Disease,Metoprolol,5/22/2025,5/26/2025,8.7,146,No,Private
+P0336,John,Martinez,F,31,Austin,J18,Pneumonia,Azithromycin,6/14/2025,6/16/2025,8.7,83,Yes,Medicare
+P0337,William,Jones,M,78,Chicago,N39,Urinary Tract Infection,Nitrofurantoin,6/18/2025,6/24/2025,7.4,100,No,Private
+P0338,William,Davis,M,62,San Jose,E78,Hyperlipidemia,Atorvastatin,5/21/2025,5/22/2025,8.5,169,Yes,Private
+P0339,James,Martinez,F,58,Los Angeles,N39,Urinary Tract Infection,Nitrofurantoin,6/13/2025,6/17/2025,9.7,144,No,Medicare
+P0340,James,Williams,M,83,Phoenix,I10,Hypertension,Lisinopril,1/16/2025,1/17/2025,7.5,120,No,Medicare
+P0341,Isabella,Brown,F,68,Los Angeles,J45,Asthma,Albuterol,4/8/2025,4/10/2025,7.2,119,No,Medicare
+P0342,William,Jones,F,60,Chicago,J45,Asthma,Albuterol,4/4/2025,4/10/2025,7.8,133,No,Private
+P0343,Noah,Martinez,F,42,New York,N39,Urinary Tract Infection,Nitrofurantoin,5/20/2025,5/24/2025,9.5,104,Yes,Medicaid
+P0344,Emma,Garcia,M,74,Houston,E11,Type 2 Diabetes,Metformin,1/15/2025,1/18/2025,6.5,102,No,Medicare
+P0345,Noah,Jones,F,38,Austin,E78,Hyperlipidemia,Atorvastatin,4/17/2025,4/24/2025,6.9,167,Yes,Private
+P0346,Isabella,Martinez,F,81,San Diego,I25,Chronic Ischemic Heart Disease,Metoprolol,5/25/2025,6/1/2025,6.8,139,Yes,Medicare
+P0347,James,Martinez,F,72,Jacksonville,I10,Hypertension,Lisinopril,5/21/2025,5/27/2025,7.4,144,No,Medicare
+P0348,Isabella,Johnson,M,55,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,5/26/2025,5/30/2025,8.6,85,Yes,Private
+P0349,Sophia,Johnson,M,28,San Jose,I25,Chronic Ischemic Heart Disease,Metoprolol,6/23/2025,6/29/2025,8.3,172,No,Medicare
+P0350,William,Johnson,M,62,San Diego,E11,Type 2 Diabetes,Metformin,1/14/2025,1/20/2025,6.2,143,Yes,Medicaid
+P0351,Isabella,Davis,M,33,Dallas,I10,Hypertension,Lisinopril,5/25/2025,6/1/2025,6.2,122,No,Medicaid
+P0352,Noah,Rodriguez,M,79,San Jose,I25,Chronic Ischemic Heart Disease,Metoprolol,2/25/2025,2/27/2025,9.1,106,Yes,Medicaid
+P0353,William,Johnson,F,58,Phoenix,E78,Hyperlipidemia,Atorvastatin,6/19/2025,6/25/2025,7.2,115,No,Medicaid
+P0354,James,Davis,M,59,Dallas,J18,Pneumonia,Azithromycin,5/29/2025,6/2/2025,8.8,142,No,Private
+P0355,Liam,Davis,M,71,Austin,I10,Hypertension,Lisinopril,4/8/2025,4/12/2025,6.8,153,No,Medicare
+P0356,Noah,Jones,F,34,Austin,E78,Hyperlipidemia,Atorvastatin,4/28/2025,5/3/2025,7.1,171,No,Medicare
+P0357,Emma,Martinez,F,40,Phoenix,E11,Type 2 Diabetes,Metformin,3/20/2025,3/27/2025,5.7,111,No,Private
+P0358,John,Martinez,M,84,Houston,I10,Hypertension,Lisinopril,6/20/2025,6/25/2025,8.9,141,Yes,Private
+P0359,Noah,Johnson,M,41,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,1/20/2025,1/24/2025,9.5,110,Yes,Medicare
+P0360,James,Miller,F,59,San Jose,E11,Type 2 Diabetes,Metformin,5/9/2025,5/10/2025,7.4,180,Yes,Medicare
+P0361,Emma,Williams,F,79,Chicago,J18,Pneumonia,Azithromycin,2/5/2025,2/8/2025,7.9,154,No,Medicare
+P0362,Liam,Johnson,F,32,Houston,N39,Urinary Tract Infection,Nitrofurantoin,1/27/2025,1/29/2025,5.6,172,No,Medicare
+P0363,James,Johnson,M,40,San Diego,J18,Pneumonia,Azithromycin,5/7/2025,5/14/2025,5.2,158,Yes,Private
+P0364,William,Martinez,M,51,Dallas,E11,Type 2 Diabetes,Metformin,4/30/2025,5/2/2025,6.1,174,Yes,Medicare
+P0365,John,Rodriguez,F,29,Houston,I21,Acute Myocardial Infarction,Aspirin,1/31/2025,2/2/2025,8.4,80,Yes,Private
+P0366,James,Martinez,M,84,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,2/6/2025,2/9/2025,7.3,129,Yes,Medicaid
+P0367,William,Miller,M,39,Phoenix,I25,Chronic Ischemic Heart Disease,Metoprolol,3/4/2025,3/7/2025,8.7,163,Yes,Private
+P0368,Noah,Jones,M,66,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,4/21/2025,4/23/2025,9.7,125,Yes,Private
+P0369,Isabella,Jones,F,25,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,2/7/2025,2/12/2025,7.6,98,Yes,Medicaid
+P0370,William,Jones,F,57,Houston,I10,Hypertension,Lisinopril,5/15/2025,5/18/2025,8.8,148,No,Medicaid
+P0371,William,Rodriguez,F,47,Phoenix,J45,Asthma,Albuterol,2/22/2025,3/1/2025,5.4,120,Yes,Medicare
+P0372,Olivia,Davis,M,31,Jacksonville,E78,Hyperlipidemia,Atorvastatin,6/11/2025,6/16/2025,5.9,80,Yes,Medicaid
+P0373,Ava,Jones,F,32,San Diego,E11,Type 2 Diabetes,Metformin,1/6/2025,1/9/2025,7.2,108,No,Medicaid
+P0374,Olivia,Davis,M,52,San Jose,J45,Asthma,Albuterol,4/6/2025,4/8/2025,6.8,112,No,Medicaid
+P0375,Sophia,Williams,M,49,Dallas,I10,Hypertension,Lisinopril,2/11/2025,2/17/2025,6.9,121,No,Medicare
+P0376,Emma,Jones,M,63,San Jose,I25,Chronic Ischemic Heart Disease,Metoprolol,6/22/2025,6/26/2025,8.4,100,Yes,Medicare
+P0377,Liam,Rodriguez,M,31,Los Angeles,I10,Hypertension,Lisinopril,4/15/2025,4/19/2025,6.7,148,Yes,Private
+P0378,Sophia,Martinez,F,84,Los Angeles,E11,Type 2 Diabetes,Metformin,1/29/2025,2/2/2025,7,108,No,Private
+P0379,Liam,Rodriguez,M,61,San Diego,E78,Hyperlipidemia,Atorvastatin,5/6/2025,5/12/2025,6.9,128,No,Private
+P0380,Isabella,Miller,F,81,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,5/11/2025,5/17/2025,6.9,139,Yes,Private
+P0381,Sophia,Brown,M,34,San Jose,I10,Hypertension,Lisinopril,6/3/2025,6/6/2025,9.8,120,No,Medicaid
+P0382,Olivia,Williams,M,28,Houston,J45,Asthma,Albuterol,1/1/2025,1/8/2025,9.6,105,Yes,Medicaid
+P0383,James,Rodriguez,M,56,Chicago,E11,Type 2 Diabetes,Metformin,2/11/2025,2/14/2025,8.4,140,Yes,Private
+P0384,James,Brown,F,79,Phoenix,J45,Asthma,Albuterol,4/9/2025,4/11/2025,7.4,180,Yes,Private
+P0385,James,Smith,M,47,New York,I10,Hypertension,Lisinopril,2/15/2025,2/17/2025,6.3,174,Yes,Medicare
+P0386,Ava,Martinez,M,49,Jacksonville,E78,Hyperlipidemia,Atorvastatin,4/8/2025,4/13/2025,6.2,137,No,Private
+P0387,John,Johnson,F,55,Los Angeles,I25,Chronic Ischemic Heart Disease,Metoprolol,1/14/2025,1/20/2025,5.4,145,Yes,Private
+P0388,James,Smith,F,42,San Diego,I21,Acute Myocardial Infarction,Aspirin,4/3/2025,4/5/2025,6.6,140,Yes,Medicare
+P0389,Emma,Johnson,F,67,Phoenix,J45,Asthma,Albuterol,3/27/2025,3/29/2025,6.5,155,No,Private
+P0390,John,Garcia,F,74,Dallas,E78,Hyperlipidemia,Atorvastatin,3/7/2025,3/11/2025,6.2,100,No,Medicare
+P0391,James,Rodriguez,F,72,Phoenix,J18,Pneumonia,Azithromycin,2/25/2025,3/4/2025,7.8,127,Yes,Private
+P0392,Isabella,Miller,M,40,New York,J45,Asthma,Albuterol,6/30/2025,7/7/2025,7.2,94,No,Private
+P0393,Noah,Smith,F,43,New York,J18,Pneumonia,Azithromycin,4/15/2025,4/22/2025,9.8,177,Yes,Medicaid
+P0394,Olivia,Martinez,M,38,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,4/30/2025,5/6/2025,6.8,130,No,Private
+P0395,Liam,Brown,M,25,Jacksonville,J45,Asthma,Albuterol,2/28/2025,3/4/2025,5.7,118,Yes,Medicare
+P0396,James,Johnson,M,52,Jacksonville,I25,Chronic Ischemic Heart Disease,Metoprolol,2/11/2025,2/18/2025,6.4,141,No,Medicaid
+P0397,Liam,Brown,M,31,San Jose,J45,Asthma,Albuterol,5/22/2025,5/29/2025,7.2,129,Yes,Private
+P0398,Emma,Rodriguez,M,83,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,1/27/2025,1/31/2025,7.1,135,Yes,Medicaid
+P0399,Isabella,Rodriguez,F,73,Phoenix,J18,Pneumonia,Azithromycin,3/16/2025,3/17/2025,6.4,163,No,Private
+P0400,John,Jones,F,28,New York,N39,Urinary Tract Infection,Nitrofurantoin,4/30/2025,5/1/2025,7.8,139,No,Medicare
+P0401,Ava,Davis,F,33,Chicago,I10,Hypertension,Lisinopril,1/12/2025,1/17/2025,6.4,162,Yes,Private
+P0402,Emma,Miller,M,34,Dallas,I21,Acute Myocardial Infarction,Aspirin,1/20/2025,1/22/2025,5,102,No,Private
+P0403,William,Williams,M,32,San Diego,E11,Type 2 Diabetes,Metformin,1/4/2025,1/6/2025,8.6,135,Yes,Medicaid
+P0404,Sophia,Martinez,F,68,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,3/22/2025,3/28/2025,7.7,91,Yes,Medicare
+P0405,John,Miller,M,63,San Jose,E11,Type 2 Diabetes,Metformin,3/13/2025,3/20/2025,6.5,82,No,Medicare
+P0406,Liam,Davis,M,74,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,3/13/2025,3/20/2025,7.9,88,No,Medicaid
+P0407,Sophia,Williams,F,58,New York,E78,Hyperlipidemia,Atorvastatin,1/19/2025,1/26/2025,7.6,136,No,Medicaid
+P0408,Olivia,Jones,M,79,Dallas,E78,Hyperlipidemia,Atorvastatin,1/4/2025,1/6/2025,10,151,No,Private
+P0409,Isabella,Rodriguez,F,46,Dallas,I10,Hypertension,Lisinopril,6/26/2025,7/1/2025,5.9,85,Yes,Private
+P0410,Isabella,Williams,M,27,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,4/11/2025,4/14/2025,9.2,129,Yes,Medicaid
+P0411,Isabella,Brown,M,52,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,3/17/2025,3/19/2025,5.1,140,Yes,Medicare
+P0412,Olivia,Garcia,F,69,San Jose,J45,Asthma,Albuterol,3/9/2025,3/13/2025,5.7,135,No,Private
+P0413,Ava,Brown,F,85,Austin,N39,Urinary Tract Infection,Nitrofurantoin,1/9/2025,1/12/2025,6.5,108,Yes,Medicaid
+P0414,Liam,Davis,M,59,New York,I21,Acute Myocardial Infarction,Aspirin,1/26/2025,2/2/2025,5.6,86,No,Private
+P0415,Liam,Martinez,M,32,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,1/8/2025,1/13/2025,6.4,108,No,Private
+P0416,William,Rodriguez,M,28,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,5/23/2025,5/24/2025,9.1,122,Yes,Private
+P0417,Isabella,Garcia,F,31,Los Angeles,J18,Pneumonia,Azithromycin,5/13/2025,5/16/2025,6.7,88,Yes,Medicaid
+P0418,Isabella,Williams,M,70,Los Angeles,I10,Hypertension,Lisinopril,4/17/2025,4/23/2025,8.4,148,Yes,Private
+P0419,William,Davis,M,54,Austin,E78,Hyperlipidemia,Atorvastatin,6/28/2025,6/30/2025,7.3,176,Yes,Private
+P0420,William,Smith,M,30,Chicago,E11,Type 2 Diabetes,Metformin,1/8/2025,1/10/2025,9.4,113,Yes,Private
+P0421,Sophia,Brown,F,70,San Diego,I25,Chronic Ischemic Heart Disease,Metoprolol,1/5/2025,1/7/2025,8.1,176,Yes,Private
+P0422,Emma,Martinez,M,31,Los Angeles,E78,Hyperlipidemia,Atorvastatin,1/14/2025,1/20/2025,6.3,87,No,Medicare
+P0423,Sophia,Brown,M,72,Los Angeles,I25,Chronic Ischemic Heart Disease,Metoprolol,6/17/2025,6/20/2025,6.4,165,Yes,Medicaid
+P0424,Noah,Williams,M,71,San Diego,E11,Type 2 Diabetes,Metformin,2/3/2025,2/10/2025,5.3,122,Yes,Private
+P0425,James,Davis,M,53,Chicago,E78,Hyperlipidemia,Atorvastatin,2/24/2025,2/25/2025,5.9,162,No,Private
+P0426,John,Brown,M,73,Jacksonville,N39,Urinary Tract Infection,Nitrofurantoin,4/8/2025,4/10/2025,8,130,Yes,Medicare
+P0427,Noah,Jones,F,63,Jacksonville,I10,Hypertension,Lisinopril,3/1/2025,3/2/2025,5.4,83,Yes,Medicare
+P0428,Isabella,Jones,M,60,Dallas,I10,Hypertension,Lisinopril,4/19/2025,4/23/2025,8.6,166,No,Medicaid
+P0429,Sophia,Smith,F,60,Los Angeles,I10,Hypertension,Lisinopril,5/15/2025,5/17/2025,9.3,141,Yes,Medicaid
+P0430,Emma,Johnson,F,40,Jacksonville,E11,Type 2 Diabetes,Metformin,6/19/2025,6/20/2025,5.3,163,Yes,Private
+P0431,Sophia,Martinez,F,53,San Diego,J18,Pneumonia,Azithromycin,3/19/2025,3/22/2025,8.5,163,Yes,Medicaid
+P0432,John,Miller,M,85,Phoenix,I21,Acute Myocardial Infarction,Aspirin,6/19/2025,6/23/2025,9.6,122,Yes,Medicaid
+P0433,Olivia,Rodriguez,M,85,Chicago,E78,Hyperlipidemia,Atorvastatin,3/6/2025,3/10/2025,9.7,131,Yes,Medicaid
+P0434,Isabella,Jones,F,39,Houston,E78,Hyperlipidemia,Atorvastatin,3/20/2025,3/23/2025,8,152,No,Medicaid
+P0435,Olivia,Smith,F,82,New York,J45,Asthma,Albuterol,1/8/2025,1/11/2025,7,141,No,Medicaid
+P0436,Isabella,Rodriguez,M,77,Jacksonville,J45,Asthma,Albuterol,6/14/2025,6/20/2025,9.3,149,No,Medicaid
+P0437,William,Smith,F,28,Austin,J45,Asthma,Albuterol,1/30/2025,2/5/2025,9.4,169,Yes,Medicare
+P0438,Isabella,Davis,F,51,Los Angeles,J18,Pneumonia,Azithromycin,1/7/2025,1/10/2025,8.5,102,Yes,Private
+P0439,Isabella,Garcia,M,36,Houston,N39,Urinary Tract Infection,Nitrofurantoin,6/15/2025,6/16/2025,7.3,108,No,Private
+P0440,John,Williams,M,52,New York,E78,Hyperlipidemia,Atorvastatin,3/10/2025,3/16/2025,7.4,103,Yes,Medicaid
+P0441,Olivia,Martinez,M,35,Phoenix,N39,Urinary Tract Infection,Nitrofurantoin,2/1/2025,2/2/2025,5.4,160,Yes,Private
+P0442,Ava,Miller,M,36,Dallas,J18,Pneumonia,Azithromycin,4/10/2025,4/12/2025,8.3,86,Yes,Medicare
+P0443,James,Brown,F,25,New York,J18,Pneumonia,Azithromycin,1/4/2025,1/6/2025,9.9,99,No,Medicaid
+P0444,John,Rodriguez,F,68,Houston,N39,Urinary Tract Infection,Nitrofurantoin,6/21/2025,6/24/2025,6.3,177,Yes,Medicare
+P0445,Olivia,Rodriguez,F,45,Jacksonville,J18,Pneumonia,Azithromycin,3/10/2025,3/12/2025,9.1,165,Yes,Medicaid
+P0446,Isabella,Johnson,M,80,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,6/19/2025,6/22/2025,7.4,155,No,Medicare
+P0447,Isabella,Davis,F,46,Phoenix,J45,Asthma,Albuterol,6/6/2025,6/13/2025,7.5,124,Yes,Medicaid
+P0448,Noah,Martinez,M,83,Los Angeles,E78,Hyperlipidemia,Atorvastatin,4/13/2025,4/15/2025,6.4,91,No,Medicare
+P0449,Sophia,Smith,F,48,San Jose,E78,Hyperlipidemia,Atorvastatin,6/19/2025,6/24/2025,6.8,161,No,Medicaid
+P0450,Sophia,Martinez,F,49,San Diego,E78,Hyperlipidemia,Atorvastatin,1/17/2025,1/18/2025,6.5,122,Yes,Medicare
+P0451,James,Brown,M,55,New York,E78,Hyperlipidemia,Atorvastatin,5/11/2025,5/14/2025,5.3,176,No,Medicaid
+P0452,Emma,Williams,F,67,Dallas,J18,Pneumonia,Azithromycin,1/27/2025,2/2/2025,6.2,180,No,Medicare
+P0453,Olivia,Martinez,M,54,Austin,E78,Hyperlipidemia,Atorvastatin,4/29/2025,5/1/2025,8.4,163,No,Private
+P0454,William,Martinez,F,40,Houston,E11,Type 2 Diabetes,Metformin,3/10/2025,3/15/2025,6.7,88,Yes,Medicare
+P0455,Isabella,Brown,F,47,Houston,I10,Hypertension,Lisinopril,2/27/2025,3/4/2025,5.2,142,No,Medicaid
+P0456,Ava,Smith,M,27,Jacksonville,E78,Hyperlipidemia,Atorvastatin,4/11/2025,4/18/2025,8.1,106,Yes,Private
+P0457,Ava,Davis,M,55,Phoenix,J18,Pneumonia,Azithromycin,6/2/2025,6/5/2025,7.8,100,No,Medicare
+P0458,Emma,Miller,F,82,San Diego,I21,Acute Myocardial Infarction,Aspirin,1/15/2025,1/21/2025,6.6,148,Yes,Private
+P0459,Liam,Miller,M,46,Austin,E11,Type 2 Diabetes,Metformin,5/13/2025,5/14/2025,8,119,No,Private
+P0460,Liam,Martinez,M,38,Phoenix,J18,Pneumonia,Azithromycin,1/8/2025,1/9/2025,7.3,131,No,Medicare
+P0461,Sophia,Jones,F,73,Jacksonville,I25,Chronic Ischemic Heart Disease,Metoprolol,6/9/2025,6/13/2025,8.6,84,Yes,Medicare
+P0462,Emma,Smith,M,56,Chicago,N39,Urinary Tract Infection,Nitrofurantoin,4/30/2025,5/1/2025,9.4,121,Yes,Medicare
+P0463,Noah,Miller,M,57,Houston,J18,Pneumonia,Azithromycin,1/18/2025,1/24/2025,9.3,153,No,Private
+P0464,William,Jones,F,76,San Jose,J45,Asthma,Albuterol,1/11/2025,1/14/2025,9.9,115,Yes,Medicaid
+P0465,John,Smith,M,44,Chicago,I10,Hypertension,Lisinopril,4/27/2025,4/30/2025,7.5,168,Yes,Medicaid
+P0466,Isabella,Williams,M,74,Austin,E11,Type 2 Diabetes,Metformin,3/7/2025,3/12/2025,9.7,146,Yes,Medicaid
+P0467,Isabella,Miller,M,74,San Diego,E11,Type 2 Diabetes,Metformin,6/27/2025,6/29/2025,9,118,Yes,Medicaid
+P0468,Noah,Jones,M,68,Chicago,N39,Urinary Tract Infection,Nitrofurantoin,4/19/2025,4/24/2025,8.5,82,No,Private
+P0469,William,Johnson,M,35,Jacksonville,I10,Hypertension,Lisinopril,2/15/2025,2/21/2025,7.7,129,No,Medicare
+P0470,Isabella,Rodriguez,M,75,Dallas,E78,Hyperlipidemia,Atorvastatin,2/27/2025,3/3/2025,9.2,108,Yes,Medicaid
+P0471,John,Brown,F,25,San Diego,I10,Hypertension,Lisinopril,4/14/2025,4/21/2025,7.6,81,Yes,Medicare
+P0472,Emma,Martinez,M,25,Chicago,I25,Chronic Ischemic Heart Disease,Metoprolol,6/29/2025,6/30/2025,7.8,117,Yes,Medicaid
+P0473,Isabella,Smith,M,65,Houston,I25,Chronic Ischemic Heart Disease,Metoprolol,6/12/2025,6/15/2025,6.6,83,Yes,Medicare
+P0474,Ava,Davis,M,25,Phoenix,I21,Acute Myocardial Infarction,Aspirin,6/10/2025,6/13/2025,6.9,180,Yes,Private
+P0475,Emma,Jones,F,35,Dallas,E11,Type 2 Diabetes,Metformin,3/11/2025,3/14/2025,9.4,92,No,Medicare
+P0476,James,Smith,M,70,Chicago,J45,Asthma,Albuterol,5/20/2025,5/26/2025,8.1,167,No,Medicaid
+P0477,Noah,Williams,F,32,San Diego,I21,Acute Myocardial Infarction,Aspirin,6/18/2025,6/19/2025,7.6,139,Yes,Medicaid
+P0478,Sophia,Smith,F,50,Phoenix,J18,Pneumonia,Azithromycin,1/14/2025,1/16/2025,6.6,139,No,Medicare
+P0479,Noah,Garcia,F,55,Los Angeles,J45,Asthma,Albuterol,2/24/2025,2/27/2025,5.7,84,No,Medicare
+P0480,Olivia,Smith,M,34,Austin,J18,Pneumonia,Azithromycin,6/11/2025,6/18/2025,6.1,175,No,Medicare
+P0481,James,Garcia,M,47,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,6/13/2025,6/17/2025,5.3,144,No,Medicaid
+P0482,Liam,Johnson,M,46,Dallas,J18,Pneumonia,Azithromycin,1/25/2025,1/30/2025,6.8,114,No,Medicaid
+P0483,James,Johnson,F,54,Los Angeles,I10,Hypertension,Lisinopril,2/28/2025,3/5/2025,9.7,140,Yes,Private
+P0484,Isabella,Martinez,F,74,Los Angeles,I25,Chronic Ischemic Heart Disease,Metoprolol,6/10/2025,6/14/2025,6.4,145,Yes,Private
+P0485,Ava,Brown,F,62,Dallas,N39,Urinary Tract Infection,Nitrofurantoin,2/13/2025,2/18/2025,7.8,157,No,Private
+P0486,Ava,Miller,F,69,New York,I25,Chronic Ischemic Heart Disease,Metoprolol,5/26/2025,6/2/2025,9.5,132,Yes,Private
+P0487,James,Brown,F,76,Austin,I25,Chronic Ischemic Heart Disease,Metoprolol,3/5/2025,3/6/2025,8.2,163,Yes,Medicaid
+P0488,William,Garcia,F,26,Phoenix,E11,Type 2 Diabetes,Metformin,1/25/2025,1/28/2025,9.7,100,No,Medicaid
+P0489,Sophia,Williams,F,40,Chicago,I10,Hypertension,Lisinopril,1/11/2025,1/17/2025,7.5,166,Yes,Medicare
+P0490,Olivia,Davis,M,81,Los Angeles,J18,Pneumonia,Azithromycin,3/21/2025,3/27/2025,8.1,102,Yes,Medicare
+P0491,Noah,Davis,F,30,Chicago,J45,Asthma,Albuterol,6/30/2025,7/4/2025,6,90,No,Medicaid
+P0492,Ava,Jones,M,69,San Diego,J18,Pneumonia,Azithromycin,5/1/2025,5/7/2025,9.7,136,No,Private
+P0493,Noah,Davis,F,36,Chicago,J18,Pneumonia,Azithromycin,4/3/2025,4/8/2025,8.6,119,No,Medicare
+P0494,Sophia,Williams,M,80,San Diego,J18,Pneumonia,Azithromycin,1/1/2025,1/3/2025,6.9,83,Yes,Medicaid
+P0495,James,Rodriguez,M,82,Chicago,E11,Type 2 Diabetes,Metformin,5/18/2025,5/19/2025,8.8,145,No,Medicaid
+P0496,Olivia,Martinez,F,51,Houston,J45,Asthma,Albuterol,4/20/2025,4/23/2025,9.6,87,Yes,Medicaid
+P0497,Isabella,Johnson,F,76,Dallas,E11,Type 2 Diabetes,Metformin,3/13/2025,3/16/2025,7.9,147,Yes,Medicare
+P0498,Ava,Williams,M,53,Los Angeles,N39,Urinary Tract Infection,Nitrofurantoin,6/21/2025,6/27/2025,6.5,146,No,Private
+P0499,Isabella,Rodriguez,F,85,San Diego,N39,Urinary Tract Infection,Nitrofurantoin,4/26/2025,4/29/2025,7.9,166,Yes,Medicaid
+P0500,Sophia,Smith,M,76,San Jose,N39,Urinary Tract Infection,Nitrofurantoin,5/16/2025,5/23/2025,10,114,Yes,Medicare
