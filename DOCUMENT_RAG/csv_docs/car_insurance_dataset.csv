@@ -1,0 +1,501 @@
+Policy_ID,Customer_ID,First_Name,Last_Name,Age,Gender,State,Vehicle_Make,Vehicle_Model,Vehicle_Year,Policy_Type,Coverage_Level,Annual_Premium,Deductible,Policy_Status,Claim_Count,Last_Claim_Amount,Credit_Score_Range,Policy_Start_Date,Policy_End_Date
+P00001,C00001,Noah,Miller,23,Male,GA,Kia,Sportage,2017,Personal Auto,Collision,880.21,1000,Active,1,8894.07,Very Good,2024-01-07,2025-01-06
+P00002,C00002,Olivia,Miller,49,Female,NC,Chevrolet,Malibu,2018,Personal Auto,Collision,1774.05,1000,Active,0,0.0,Poor,2024-05-03,2025-05-03
+P00003,C00003,Henry,Brown,39,Male,FL,Tesla,Model 3,2019,Commercial Auto,Comprehensive,1517.16,750,Active,3,566.53,Very Good,2024-07-14,2025-07-14
+P00004,C00004,Amelia,Smith,59,Male,FL,Tesla,Model 3,2021,Commercial Auto,Comprehensive,1104.04,500,Active,0,0.0,Poor,2024-06-29,2025-06-29
+P00005,C00005,James,Jones,26,Male,FL,Audi,A4,2016,Commercial Auto,Comprehensive,2394.8,250,Expired,2,9502.95,Fair,2024-04-06,2025-04-06
+P00006,C00006,Benjamin,Anderson,45,Male,NY,Kia,Sportage,2019,Commercial Auto,Comprehensive,1726.26,1000,Active,1,8230.32,Excellent,2024-05-03,2025-05-03
+P00007,C00007,Liam,Rodriguez,54,Male,WA,Hyundai,Elantra,2023,Commercial Auto,Comprehensive,2225.34,750,Expired,1,1258.36,Fair,2024-08-18,2025-08-18
+P00008,C00008,Olivia,Anderson,49,Female,NV,Hyundai,Elantra,2016,Personal Auto,Collision,2334.95,1000,Expired,1,6218.3,Good,2024-02-26,2025-02-25
+P00009,C00009,Olivia,Martinez,47,Female,IL,Audi,A4,2021,Personal Auto,Collision,1071.64,750,Cancelled,0,0.0,Very Good,2024-01-11,2025-01-10
+P00010,C00010,Olivia,Williams,66,Male,WA,Ford,F-150,2023,Personal Auto,Comprehensive,1771.69,250,Cancelled,0,0.0,Fair,2024-08-30,2025-08-30
+P00011,C00011,Emma,Smith,75,Male,NC,Hyundai,Elantra,2020,Personal Auto,Full Coverage,1270.77,750,Expired,3,5756.63,Fair,2024-01-01,2024-12-31
+P00012,C00012,James,Anderson,37,Female,IL,Hyundai,Elantra,2016,Commercial Auto,Full Coverage,1976.44,1000,Cancelled,3,6715.36,Excellent,2024-07-10,2025-07-10
+P00013,C00013,Noah,Williams,27,Male,AZ,Nissan,Altima,2022,Commercial Auto,Full Coverage,2103.89,750,Active,3,11420.57,Very Good,2024-08-03,2025-08-03
+P00014,C00014,Benjamin,Wilson,58,Female,GA,Ford,F-150,2016,Personal Auto,Full Coverage,1459.62,1000,Active,3,4391.87,Very Good,2024-04-22,2025-04-22
+P00015,C00015,Sophia,Johnson,44,Male,IL,Tesla,Model 3,2020,Commercial Auto,Liability Only,652.76,500,Cancelled,2,8903.63,Poor,2024-09-24,2025-09-24
+P00016,C00016,Amelia,Anderson,64,Female,TX,Nissan,Altima,2018,Commercial Auto,Full Coverage,1053.62,750,Active,0,0.0,Good,2024-01-16,2025-01-15
+P00017,C00017,Lucas,Thomas,25,Male,WA,Ford,F-150,2022,Personal Auto,Collision,2073.64,500,Cancelled,1,1365.54,Good,2024-09-14,2025-09-14
+P00018,C00018,Ava,Williams,29,Female,NY,Honda,Civic,2020,Personal Auto,Full Coverage,1185.1,250,Expired,0,0.0,Good,2024-12-07,2025-12-07
+P00019,C00019,Charlotte,Davis,28,Male,GA,BMW,3 Series,2024,Personal Auto,Liability Only,1430.25,500,Cancelled,2,8181.14,Fair,2024-09-09,2025-09-09
+P00020,C00020,Evelyn,Taylor,23,Male,WA,Hyundai,Elantra,2020,Personal Auto,Full Coverage,1047.48,250,Expired,1,2855.72,Fair,2024-06-20,2025-06-20
+P00021,C00021,Emma,Rodriguez,41,Male,NC,Nissan,Altima,2020,Commercial Auto,Liability Only,1511.83,750,Cancelled,3,8246.21,Poor,2024-02-03,2025-02-02
+P00022,C00022,Benjamin,Rodriguez,64,Male,NV,Honda,Civic,2015,Personal Auto,Liability Only,1856.45,750,Cancelled,3,6561.95,Poor,2024-09-20,2025-09-20
+P00023,C00023,Charlotte,Davis,52,Male,WA,Toyota,Camry,2021,Commercial Auto,Collision,1060.32,1000,Cancelled,2,2863.84,Good,2024-11-14,2025-11-14
+P00024,C00024,Sophia,Taylor,68,Female,GA,Audi,A4,2021,Personal Auto,Collision,2434.89,500,Active,0,0.0,Poor,2024-04-11,2025-04-11
+P00025,C00025,Isabella,Brown,54,Male,IL,Hyundai,Elantra,2019,Commercial Auto,Full Coverage,1346.07,250,Cancelled,2,10175.21,Good,2024-04-12,2025-04-12
+P00026,C00026,Harper,Rodriguez,31,Male,TX,Hyundai,Elantra,2016,Commercial Auto,Full Coverage,2484.76,1000,Cancelled,2,2647.07,Good,2024-09-18,2025-09-18
+P00027,C00027,Henry,Wilson,40,Male,AZ,Ford,F-150,2018,Commercial Auto,Comprehensive,2431.38,250,Expired,3,13401.95,Poor,2024-11-08,2025-11-08
+P00028,C00028,James,Brown,52,Male,NV,BMW,3 Series,2016,Commercial Auto,Collision,1051.8,500,Active,2,14572.83,Poor,2024-04-09,2025-04-09
+P00029,C00029,Ava,Rodriguez,74,Female,GA,Kia,Sportage,2021,Personal Auto,Comprehensive,1505.1,500,Expired,0,0.0,Poor,2024-08-16,2025-08-16
+P00030,C00030,Henry,Smith,26,Male,IL,Tesla,Model 3,2016,Commercial Auto,Liability Only,2101.72,1000,Active,1,4601.26,Fair,2024-01-23,2025-01-22
+P00031,C00031,James,Davis,21,Male,TX,Nissan,Altima,2021,Commercial Auto,Full Coverage,1083.45,750,Expired,2,4257.1,Very Good,2024-06-22,2025-06-22
+P00032,C00032,Liam,Brown,37,Female,NV,Honda,Civic,2021,Personal Auto,Liability Only,2169.26,500,Active,1,9499.0,Fair,2024-10-03,2025-10-03
+P00033,C00033,James,Martinez,30,Female,NC,Audi,A4,2016,Personal Auto,Collision,1612.36,500,Cancelled,0,0.0,Fair,2024-05-08,2025-05-08
+P00034,C00034,Amelia,Rodriguez,56,Male,IL,Audi,A4,2017,Personal Auto,Liability Only,830.98,750,Cancelled,3,9133.49,Very Good,2024-09-18,2025-09-18
+P00035,C00035,Emma,Miller,75,Female,FL,BMW,3 Series,2015,Commercial Auto,Full Coverage,2117.34,1000,Expired,0,0.0,Excellent,2024-08-22,2025-08-22
+P00036,C00036,Charlotte,Taylor,26,Male,NV,Hyundai,Elantra,2021,Personal Auto,Liability Only,2085.38,500,Expired,3,11971.7,Poor,2024-12-30,2025-12-30
+P00037,C00037,Benjamin,Anderson,51,Female,NC,Tesla,Model 3,2024,Commercial Auto,Collision,1033.91,250,Expired,0,0.0,Excellent,2024-07-01,2025-07-01
+P00038,C00038,Amelia,Wilson,66,Female,NY,Tesla,Model 3,2020,Personal Auto,Collision,1009.46,1000,Expired,0,0.0,Very Good,2024-12-20,2025-12-20
+P00039,C00039,John,Wilson,38,Female,TX,Kia,Sportage,2018,Commercial Auto,Comprehensive,1248.84,250,Active,2,12554.29,Poor,2024-05-19,2025-05-19
+P00040,C00040,William,Smith,64,Female,AZ,Audi,A4,2024,Commercial Auto,Liability Only,1026.85,500,Expired,2,8994.6,Poor,2024-06-03,2025-06-03
+P00041,C00041,Amelia,Thomas,33,Male,NC,Honda,Civic,2015,Commercial Auto,Comprehensive,902.68,250,Active,3,3058.23,Good,2024-10-27,2025-10-27
+P00042,C00042,Emma,Rodriguez,43,Male,AZ,Chevrolet,Malibu,2017,Commercial Auto,Full Coverage,2161.12,1000,Expired,2,8398.62,Very Good,2024-09-30,2025-09-30
+P00043,C00043,Henry,Thomas,43,Female,CA,Tesla,Model 3,2017,Commercial Auto,Comprehensive,1385.58,250,Expired,1,9520.28,Good,2024-02-21,2025-02-20
+P00044,C00044,James,Wilson,40,Male,NY,Honda,Civic,2017,Commercial Auto,Comprehensive,1066.44,750,Expired,0,0.0,Good,2024-01-08,2025-01-07
+P00045,C00045,Lucas,Wilson,55,Male,TX,Chevrolet,Malibu,2015,Personal Auto,Collision,1439.57,1000,Expired,1,14839.75,Very Good,2024-10-24,2025-10-24
+P00046,C00046,Charlotte,Davis,74,Female,TX,Tesla,Model 3,2022,Commercial Auto,Collision,603.22,500,Cancelled,0,0.0,Excellent,2024-04-13,2025-04-13
+P00047,C00047,Amelia,Davis,47,Female,AZ,Audi,A4,2016,Personal Auto,Collision,659.17,250,Expired,2,861.96,Good,2024-01-01,2024-12-31
+P00048,C00048,Liam,Jones,38,Male,AZ,Tesla,Model 3,2016,Personal Auto,Collision,2020.22,500,Active,0,0.0,Very Good,2024-02-29,2025-02-28
+P00049,C00049,Michael,Smith,61,Female,GA,Nissan,Altima,2024,Personal Auto,Collision,2043.66,250,Active,2,14501.63,Good,2024-03-21,2025-03-21
+P00050,C00050,Liam,Smith,57,Male,NC,Honda,Civic,2022,Personal Auto,Comprehensive,959.32,1000,Expired,1,13816.34,Fair,2024-02-21,2025-02-20
+P00051,C00051,Charlotte,Rodriguez,60,Male,GA,BMW,3 Series,2021,Commercial Auto,Collision,1039.13,500,Active,3,9970.25,Poor,2024-06-22,2025-06-22
+P00052,C00052,William,Rodriguez,44,Female,IL,Kia,Sportage,2019,Personal Auto,Comprehensive,2401.15,750,Expired,3,2115.91,Good,2024-06-02,2025-06-02
+P00053,C00053,Noah,Davis,67,Female,NV,Ford,F-150,2022,Personal Auto,Liability Only,1297.48,500,Cancelled,0,0.0,Very Good,2024-06-24,2025-06-24
+P00054,C00054,Charlotte,Williams,46,Male,NY,Hyundai,Elantra,2022,Personal Auto,Full Coverage,2128.41,500,Active,3,5909.46,Excellent,2024-05-31,2025-05-31
+P00055,C00055,Ava,Anderson,28,Female,GA,Tesla,Model 3,2020,Commercial Auto,Full Coverage,1037.42,1000,Cancelled,2,13029.41,Good,2024-02-06,2025-02-05
+P00056,C00056,Lucas,Smith,64,Female,WA,Toyota,Camry,2022,Commercial Auto,Collision,1088.53,500,Active,3,4326.81,Poor,2024-05-28,2025-05-28
+P00057,C00057,Charlotte,Williams,26,Female,NY,Audi,A4,2015,Commercial Auto,Liability Only,1289.63,250,Cancelled,2,3867.8,Good,2024-09-29,2025-09-29
+P00058,C00058,Charlotte,Williams,66,Female,GA,Tesla,Model 3,2023,Commercial Auto,Collision,1567.26,250,Cancelled,0,0.0,Poor,2024-05-16,2025-05-16
+P00059,C00059,Charlotte,Miller,64,Female,CA,Toyota,Camry,2017,Commercial Auto,Full Coverage,2314.97,500,Cancelled,0,0.0,Very Good,2024-02-29,2025-02-28
+P00060,C00060,Evelyn,Smith,54,Male,NY,Nissan,Altima,2016,Personal Auto,Full Coverage,2274.02,750,Active,3,7109.08,Good,2024-10-08,2025-10-08
+P00061,C00061,Harper,Smith,25,Male,WA,Tesla,Model 3,2022,Commercial Auto,Full Coverage,2161.42,750,Active,0,0.0,Excellent,2024-04-08,2025-04-08
+P00062,C00062,Olivia,Taylor,61,Male,WA,Ford,F-150,2015,Commercial Auto,Liability Only,1412.03,750,Cancelled,3,3330.79,Very Good,2024-04-17,2025-04-17
+P00063,C00063,Noah,Johnson,41,Female,NV,Kia,Sportage,2017,Commercial Auto,Collision,1977.52,250,Cancelled,1,10304.25,Poor,2024-06-03,2025-06-03
+P00064,C00064,Ava,Johnson,55,Male,NY,Nissan,Altima,2023,Commercial Auto,Liability Only,814.45,250,Expired,0,0.0,Poor,2024-08-29,2025-08-29
+P00065,C00065,Isabella,Taylor,27,Female,GA,Honda,Civic,2020,Personal Auto,Comprehensive,1027.81,250,Active,3,6192.84,Very Good,2024-01-31,2025-01-30
+P00066,C00066,Olivia,Williams,32,Male,IL,Honda,Civic,2018,Commercial Auto,Comprehensive,1125.12,250,Cancelled,0,0.0,Very Good,2024-12-13,2025-12-13
+P00067,C00067,Liam,Brown,34,Female,FL,Audi,A4,2024,Personal Auto,Full Coverage,828.23,750,Cancelled,1,13127.98,Excellent,2024-01-19,2025-01-18
+P00068,C00068,Lucas,Martinez,21,Male,TX,Toyota,Camry,2017,Commercial Auto,Comprehensive,651.48,750,Expired,2,5635.54,Fair,2024-10-20,2025-10-20
+P00069,C00069,Charlotte,Davis,54,Female,GA,Ford,F-150,2016,Commercial Auto,Full Coverage,1119.03,1000,Cancelled,0,0.0,Poor,2024-12-08,2025-12-08
+P00070,C00070,William,Smith,38,Male,NV,Toyota,Camry,2022,Commercial Auto,Comprehensive,1149.18,250,Active,3,5788.2,Excellent,2024-02-27,2025-02-26
+P00071,C00071,Lucas,Rodriguez,60,Female,NV,Chevrolet,Malibu,2016,Personal Auto,Collision,820.67,1000,Cancelled,1,5973.96,Very Good,2024-04-08,2025-04-08
+P00072,C00072,Noah,Taylor,50,Female,CA,Toyota,Camry,2015,Commercial Auto,Collision,1385.67,1000,Cancelled,0,0.0,Good,2024-02-09,2025-02-08
+P00073,C00073,Olivia,Wilson,39,Female,NY,Kia,Sportage,2023,Personal Auto,Comprehensive,1727.03,750,Active,1,10335.11,Fair,2024-10-30,2025-10-30
+P00074,C00074,Isabella,Miller,57,Female,CA,BMW,3 Series,2019,Commercial Auto,Comprehensive,707.86,1000,Cancelled,3,6821.67,Fair,2024-12-15,2025-12-15
+P00075,C00075,Liam,Garcia,70,Male,FL,Toyota,Camry,2021,Personal Auto,Full Coverage,1531.25,500,Expired,2,14788.41,Fair,2024-05-03,2025-05-03
+P00076,C00076,Olivia,Martinez,65,Male,FL,BMW,3 Series,2018,Commercial Auto,Full Coverage,2086.22,250,Expired,2,9802.43,Excellent,2024-11-17,2025-11-17
+P00077,C00077,Noah,Garcia,28,Female,GA,BMW,3 Series,2015,Personal Auto,Comprehensive,1650.72,1000,Active,2,3073.82,Poor,2024-10-21,2025-10-21
+P00078,C00078,Liam,Johnson,70,Male,WA,Toyota,Camry,2020,Personal Auto,Full Coverage,1771.27,1000,Cancelled,2,5702.01,Very Good,2024-01-14,2025-01-13
+P00079,C00079,Sophia,Johnson,49,Female,NY,Chevrolet,Malibu,2016,Commercial Auto,Comprehensive,1967.11,250,Expired,1,13631.16,Poor,2024-03-12,2025-03-12
+P00080,C00080,Charlotte,Anderson,59,Female,IL,Tesla,Model 3,2021,Commercial Auto,Comprehensive,1607.34,250,Active,3,5484.26,Good,2024-09-06,2025-09-06
+P00081,C00081,Isabella,Anderson,40,Male,NC,Tesla,Model 3,2022,Personal Auto,Collision,2190.71,750,Cancelled,0,0.0,Poor,2024-07-14,2025-07-14
+P00082,C00082,Harper,Rodriguez,68,Male,GA,Honda,Civic,2017,Personal Auto,Collision,2055.22,250,Active,2,6416.18,Very Good,2024-10-11,2025-10-11
+P00083,C00083,Liam,Jones,40,Female,FL,Chevrolet,Malibu,2018,Commercial Auto,Full Coverage,879.5,1000,Cancelled,1,5272.02,Very Good,2024-12-29,2025-12-29
+P00084,C00084,Lucas,Jones,55,Female,NY,Chevrolet,Malibu,2016,Commercial Auto,Full Coverage,1543.88,750,Active,2,8422.95,Fair,2024-04-16,2025-04-16
+P00085,C00085,James,Williams,31,Male,GA,Kia,Sportage,2020,Commercial Auto,Full Coverage,912.97,750,Expired,0,0.0,Good,2024-01-27,2025-01-26
+P00086,C00086,Charlotte,Rodriguez,54,Female,GA,Tesla,Model 3,2022,Personal Auto,Comprehensive,2418.28,1000,Cancelled,3,14271.41,Excellent,2024-01-17,2025-01-16
+P00087,C00087,Olivia,Wilson,28,Male,NC,BMW,3 Series,2022,Commercial Auto,Collision,1014.83,1000,Cancelled,3,10309.22,Fair,2024-12-10,2025-12-10
+P00088,C00088,Charlotte,Garcia,75,Male,FL,Toyota,Camry,2023,Personal Auto,Liability Only,1317.18,250,Expired,1,10468.76,Poor,2024-01-30,2025-01-29
+P00089,C00089,Ava,Davis,61,Male,IL,Kia,Sportage,2019,Commercial Auto,Full Coverage,1375.54,500,Cancelled,3,5828.09,Good,2024-12-23,2025-12-23
+P00090,C00090,William,Martinez,71,Male,NV,Honda,Civic,2018,Personal Auto,Comprehensive,2370.08,500,Expired,3,7900.82,Excellent,2024-05-18,2025-05-18
+P00091,C00091,Liam,Taylor,28,Male,TX,Ford,F-150,2022,Personal Auto,Collision,1047.4,500,Active,2,14339.63,Excellent,2024-12-11,2025-12-11
+P00092,C00092,Charlotte,Thomas,46,Female,TX,Ford,F-150,2022,Commercial Auto,Full Coverage,952.74,750,Active,3,10916.34,Excellent,2024-06-12,2025-06-12
+P00093,C00093,Isabella,Brown,22,Male,IL,Kia,Sportage,2015,Commercial Auto,Comprehensive,675.77,750,Expired,1,9246.51,Poor,2024-02-17,2025-02-16
+P00094,C00094,Sophia,Rodriguez,33,Male,FL,Audi,A4,2015,Commercial Auto,Collision,2157.94,1000,Active,2,12240.18,Good,2024-11-24,2025-11-24
+P00095,C00095,Amelia,Wilson,28,Female,IL,Tesla,Model 3,2018,Commercial Auto,Collision,1744.57,250,Active,0,0.0,Fair,2024-08-10,2025-08-10
+P00096,C00096,Liam,Johnson,60,Male,TX,Hyundai,Elantra,2015,Commercial Auto,Full Coverage,1874.0,250,Cancelled,2,11502.62,Fair,2024-07-26,2025-07-26
+P00097,C00097,John,Jones,41,Female,NY,Honda,Civic,2015,Commercial Auto,Collision,1046.98,1000,Cancelled,3,11473.49,Very Good,2024-11-13,2025-11-13
+P00098,C00098,Benjamin,Wilson,24,Male,NV,Nissan,Altima,2017,Personal Auto,Collision,2185.69,500,Cancelled,3,3329.95,Very Good,2024-03-11,2025-03-11
+P00099,C00099,Charlotte,Thomas,62,Female,GA,Honda,Civic,2017,Commercial Auto,Full Coverage,1422.51,750,Expired,3,7945.02,Fair,2024-01-23,2025-01-22
+P00100,C00100,Benjamin,Anderson,30,Female,GA,BMW,3 Series,2021,Personal Auto,Liability Only,1256.05,250,Expired,3,7913.08,Poor,2024-09-01,2025-09-01
+P00101,C00101,John,Thomas,66,Female,GA,Honda,Civic,2023,Personal Auto,Liability Only,2240.29,1000,Expired,3,2929.19,Very Good,2024-04-11,2025-04-11
+P00102,C00102,Benjamin,Wilson,51,Male,NY,Kia,Sportage,2020,Commercial Auto,Comprehensive,709.34,250,Active,3,14015.17,Excellent,2024-02-26,2025-02-25
+P00103,C00103,Henry,Martinez,56,Female,NV,Ford,F-150,2024,Personal Auto,Full Coverage,1181.56,500,Active,1,2610.54,Excellent,2024-03-31,2025-03-31
+P00104,C00104,Henry,Williams,59,Male,CA,Honda,Civic,2023,Commercial Auto,Comprehensive,2256.18,250,Active,3,6444.37,Poor,2024-08-20,2025-08-20
+P00105,C00105,Lucas,Davis,30,Male,GA,BMW,3 Series,2020,Commercial Auto,Comprehensive,753.95,750,Active,3,11711.36,Excellent,2024-11-11,2025-11-11
+P00106,C00106,Sophia,Wilson,38,Male,CA,Nissan,Altima,2021,Commercial Auto,Comprehensive,2428.95,250,Cancelled,3,5560.48,Excellent,2024-03-18,2025-03-18
+P00107,C00107,William,Brown,58,Male,FL,Nissan,Altima,2017,Commercial Auto,Full Coverage,1905.63,750,Active,1,1521.39,Very Good,2024-05-04,2025-05-04
+P00108,C00108,Harper,Smith,52,Male,NY,Honda,Civic,2019,Commercial Auto,Liability Only,1940.04,500,Active,2,628.9,Poor,2024-12-31,2025-12-31
+P00109,C00109,Charlotte,Taylor,42,Male,WA,Kia,Sportage,2019,Personal Auto,Liability Only,879.95,500,Active,3,14224.41,Poor,2024-02-21,2025-02-20
+P00110,C00110,William,Jones,23,Female,FL,Chevrolet,Malibu,2024,Personal Auto,Comprehensive,1430.2,750,Active,0,0.0,Fair,2024-01-31,2025-01-30
+P00111,C00111,James,Rodriguez,69,Female,TX,Hyundai,Elantra,2024,Commercial Auto,Liability Only,1288.79,750,Cancelled,1,7467.41,Excellent,2024-02-25,2025-02-24
+P00112,C00112,Evelyn,Wilson,48,Female,NY,BMW,3 Series,2023,Personal Auto,Liability Only,2038.64,500,Active,3,696.11,Fair,2024-07-24,2025-07-24
+P00113,C00113,John,Anderson,42,Male,NC,Ford,F-150,2020,Personal Auto,Comprehensive,1904.22,1000,Active,0,0.0,Good,2024-09-30,2025-09-30
+P00114,C00114,Olivia,Wilson,54,Male,NY,Chevrolet,Malibu,2016,Personal Auto,Comprehensive,809.69,500,Active,0,0.0,Excellent,2024-05-07,2025-05-07
+P00115,C00115,Liam,Taylor,57,Female,TX,Honda,Civic,2021,Personal Auto,Comprehensive,2448.47,750,Active,3,4609.47,Poor,2024-11-11,2025-11-11
+P00116,C00116,William,Rodriguez,33,Female,NY,Ford,F-150,2015,Commercial Auto,Full Coverage,1474.65,1000,Expired,2,14375.93,Excellent,2024-03-07,2025-03-07
+P00117,C00117,Emma,Davis,50,Male,WA,Ford,F-150,2023,Commercial Auto,Full Coverage,1990.57,1000,Cancelled,1,11391.02,Good,2024-10-08,2025-10-08
+P00118,C00118,Henry,Miller,27,Male,TX,Audi,A4,2018,Commercial Auto,Liability Only,980.44,1000,Active,3,1729.45,Very Good,2024-11-09,2025-11-09
+P00119,C00119,Michael,Thomas,60,Male,AZ,Honda,Civic,2021,Commercial Auto,Full Coverage,1448.4,250,Cancelled,2,6201.84,Poor,2024-12-02,2025-12-02
+P00120,C00120,Charlotte,Anderson,56,Male,AZ,Toyota,Camry,2015,Personal Auto,Collision,1024.35,250,Cancelled,2,3000.02,Very Good,2024-07-25,2025-07-25
+P00121,C00121,William,Martinez,28,Male,AZ,BMW,3 Series,2018,Commercial Auto,Comprehensive,2403.28,250,Cancelled,0,0.0,Good,2024-11-17,2025-11-17
+P00122,C00122,Harper,Miller,48,Male,WA,BMW,3 Series,2021,Personal Auto,Comprehensive,1395.66,500,Active,0,0.0,Excellent,2024-04-07,2025-04-07
+P00123,C00123,James,Taylor,73,Male,NY,BMW,3 Series,2017,Personal Auto,Collision,1450.69,750,Expired,0,0.0,Very Good,2024-01-29,2025-01-28
+P00124,C00124,Amelia,Thomas,26,Female,IL,Toyota,Camry,2016,Personal Auto,Comprehensive,1995.54,1000,Cancelled,3,2123.03,Good,2024-07-20,2025-07-20
+P00125,C00125,William,Davis,66,Male,WA,Chevrolet,Malibu,2019,Commercial Auto,Liability Only,1742.11,500,Active,0,0.0,Very Good,2024-01-11,2025-01-10
+P00126,C00126,Evelyn,Jones,35,Female,TX,Tesla,Model 3,2015,Personal Auto,Comprehensive,1333.94,750,Cancelled,1,14815.5,Poor,2024-02-29,2025-02-28
+P00127,C00127,Emma,Rodriguez,66,Male,NY,Ford,F-150,2022,Commercial Auto,Full Coverage,1821.6,750,Expired,0,0.0,Excellent,2024-03-30,2025-03-30
+P00128,C00128,Isabella,Johnson,41,Male,WA,Ford,F-150,2017,Personal Auto,Collision,666.59,750,Cancelled,1,10703.43,Very Good,2024-04-18,2025-04-18
+P00129,C00129,Amelia,Miller,59,Female,CA,Kia,Sportage,2024,Personal Auto,Liability Only,2104.02,500,Cancelled,0,0.0,Fair,2024-04-30,2025-04-30
+P00130,C00130,Olivia,Martinez,30,Male,IL,BMW,3 Series,2019,Personal Auto,Liability Only,1496.76,750,Expired,2,12696.07,Excellent,2024-01-20,2025-01-19
+P00131,C00131,Benjamin,Thomas,59,Male,NV,Tesla,Model 3,2017,Personal Auto,Collision,2074.52,250,Active,3,8838.72,Excellent,2024-02-10,2025-02-09
+P00132,C00132,Lucas,Taylor,67,Female,NY,Honda,Civic,2015,Commercial Auto,Full Coverage,2275.38,750,Cancelled,3,4152.55,Good,2024-11-30,2025-11-30
+P00133,C00133,Isabella,Johnson,61,Female,AZ,Hyundai,Elantra,2017,Personal Auto,Collision,1714.84,500,Active,0,0.0,Poor,2024-05-01,2025-05-01
+P00134,C00134,Isabella,Johnson,33,Female,NY,Honda,Civic,2018,Personal Auto,Collision,1246.93,1000,Active,3,10121.52,Poor,2024-11-14,2025-11-14
+P00135,C00135,Sophia,Wilson,63,Male,GA,Audi,A4,2021,Personal Auto,Comprehensive,650.82,250,Cancelled,3,12033.47,Excellent,2024-12-23,2025-12-23
+P00136,C00136,Charlotte,Anderson,54,Male,FL,BMW,3 Series,2024,Commercial Auto,Comprehensive,2366.03,1000,Active,1,5590.48,Excellent,2024-08-29,2025-08-29
+P00137,C00137,Lucas,Rodriguez,38,Female,AZ,Chevrolet,Malibu,2022,Commercial Auto,Collision,686.92,500,Expired,1,7976.69,Excellent,2024-07-15,2025-07-15
+P00138,C00138,Olivia,Williams,69,Female,TX,Hyundai,Elantra,2021,Personal Auto,Comprehensive,1869.95,1000,Cancelled,1,6806.75,Excellent,2024-08-03,2025-08-03
+P00139,C00139,William,Miller,40,Male,GA,BMW,3 Series,2023,Personal Auto,Full Coverage,2305.8,750,Cancelled,3,11273.75,Fair,2024-06-14,2025-06-14
+P00140,C00140,Lucas,Garcia,53,Female,WA,Ford,F-150,2015,Personal Auto,Comprehensive,2120.95,500,Expired,1,525.22,Excellent,2024-04-02,2025-04-02
+P00141,C00141,Henry,Thomas,26,Male,IL,Honda,Civic,2017,Commercial Auto,Full Coverage,2470.07,750,Expired,0,0.0,Fair,2024-03-12,2025-03-12
+P00142,C00142,Isabella,Brown,29,Male,NV,Tesla,Model 3,2019,Personal Auto,Full Coverage,636.5,500,Active,0,0.0,Very Good,2024-06-30,2025-06-30
+P00143,C00143,John,Rodriguez,75,Female,WA,Hyundai,Elantra,2020,Personal Auto,Collision,785.02,1000,Expired,0,0.0,Very Good,2024-06-26,2025-06-26
+P00144,C00144,Michael,Williams,64,Male,AZ,Audi,A4,2024,Personal Auto,Collision,2089.87,500,Cancelled,3,2820.79,Very Good,2024-06-08,2025-06-08
+P00145,C00145,Isabella,Jones,73,Female,NY,Audi,A4,2015,Personal Auto,Comprehensive,1887.91,500,Cancelled,1,2607.55,Good,2024-02-16,2025-02-15
+P00146,C00146,Isabella,Thomas,28,Male,IL,Nissan,Altima,2024,Personal Auto,Liability Only,1348.24,750,Active,3,13854.89,Fair,2024-04-04,2025-04-04
+P00147,C00147,Lucas,Garcia,36,Female,NY,BMW,3 Series,2017,Personal Auto,Comprehensive,1666.3,1000,Cancelled,1,11038.48,Good,2024-09-17,2025-09-17
+P00148,C00148,John,Martinez,22,Male,AZ,Kia,Sportage,2015,Personal Auto,Comprehensive,1488.38,1000,Expired,0,0.0,Excellent,2024-06-04,2025-06-04
+P00149,C00149,Liam,Rodriguez,41,Female,AZ,Ford,F-150,2020,Personal Auto,Collision,1301.11,250,Cancelled,1,9403.95,Poor,2024-01-02,2025-01-01
+P00150,C00150,Olivia,Williams,28,Male,AZ,Tesla,Model 3,2022,Commercial Auto,Collision,1150.38,1000,Expired,3,3466.77,Good,2024-11-01,2025-11-01
+P00151,C00151,Evelyn,Rodriguez,33,Female,FL,Hyundai,Elantra,2016,Personal Auto,Collision,1732.88,250,Cancelled,0,0.0,Poor,2024-11-08,2025-11-08
+P00152,C00152,Isabella,Wilson,67,Female,WA,Hyundai,Elantra,2024,Commercial Auto,Liability Only,1785.23,250,Expired,1,12411.45,Very Good,2024-03-18,2025-03-18
+P00153,C00153,Olivia,Rodriguez,25,Female,GA,Ford,F-150,2020,Personal Auto,Comprehensive,1930.34,1000,Cancelled,2,14718.54,Fair,2024-10-15,2025-10-15
+P00154,C00154,Olivia,Davis,30,Female,AZ,Toyota,Camry,2019,Commercial Auto,Liability Only,1774.83,500,Cancelled,3,3913.84,Fair,2024-01-27,2025-01-26
+P00155,C00155,Noah,Martinez,55,Male,GA,Honda,Civic,2023,Personal Auto,Collision,676.12,1000,Active,2,9441.47,Good,2024-05-07,2025-05-07
+P00156,C00156,Amelia,Miller,33,Male,NV,BMW,3 Series,2024,Personal Auto,Comprehensive,1883.75,750,Active,3,1673.04,Excellent,2024-01-13,2025-01-12
+P00157,C00157,Michael,Johnson,34,Female,NC,Hyundai,Elantra,2018,Commercial Auto,Full Coverage,2451.96,500,Expired,0,0.0,Fair,2024-07-16,2025-07-16
+P00158,C00158,Evelyn,Martinez,30,Male,IL,Nissan,Altima,2019,Personal Auto,Comprehensive,788.0,750,Expired,2,3978.11,Good,2024-04-23,2025-04-23
+P00159,C00159,Isabella,Rodriguez,35,Male,NV,Ford,F-150,2022,Commercial Auto,Comprehensive,2273.46,250,Expired,2,13639.94,Very Good,2024-11-14,2025-11-14
+P00160,C00160,Benjamin,Anderson,72,Female,TX,Chevrolet,Malibu,2017,Personal Auto,Collision,1041.74,1000,Active,1,1395.83,Poor,2024-02-13,2025-02-12
+P00161,C00161,Ava,Jones,69,Female,GA,Honda,Civic,2024,Commercial Auto,Collision,2084.41,750,Expired,1,9628.88,Good,2024-06-30,2025-06-30
+P00162,C00162,John,Jones,60,Male,NY,Tesla,Model 3,2017,Commercial Auto,Full Coverage,2110.14,250,Expired,3,13436.21,Excellent,2024-10-28,2025-10-28
+P00163,C00163,Charlotte,Wilson,50,Female,NY,Hyundai,Elantra,2016,Commercial Auto,Liability Only,1220.12,1000,Active,1,879.19,Good,2024-04-26,2025-04-26
+P00164,C00164,Ava,Wilson,63,Female,WA,Tesla,Model 3,2017,Personal Auto,Comprehensive,1846.67,250,Cancelled,0,0.0,Good,2024-05-28,2025-05-28
+P00165,C00165,Ava,Jones,65,Female,FL,Chevrolet,Malibu,2022,Commercial Auto,Full Coverage,1987.38,750,Expired,3,6338.33,Fair,2024-08-31,2025-08-31
+P00166,C00166,Harper,Martinez,37,Male,NC,Toyota,Camry,2022,Personal Auto,Liability Only,619.18,500,Expired,0,0.0,Very Good,2024-02-19,2025-02-18
+P00167,C00167,Michael,Miller,64,Female,NC,BMW,3 Series,2020,Commercial Auto,Collision,1245.28,750,Active,0,0.0,Very Good,2024-10-17,2025-10-17
+P00168,C00168,James,Brown,64,Female,NC,Hyundai,Elantra,2018,Personal Auto,Full Coverage,775.08,750,Active,2,12068.88,Good,2024-07-25,2025-07-25
+P00169,C00169,Sophia,Taylor,39,Male,FL,Kia,Sportage,2022,Commercial Auto,Liability Only,1330.8,750,Cancelled,1,830.12,Excellent,2024-02-11,2025-02-10
+P00170,C00170,Ava,Davis,75,Male,AZ,Nissan,Altima,2023,Personal Auto,Comprehensive,1978.27,500,Expired,3,14879.62,Excellent,2024-06-02,2025-06-02
+P00171,C00171,Olivia,Garcia,49,Female,WA,Kia,Sportage,2021,Commercial Auto,Comprehensive,1024.68,500,Active,2,12860.66,Very Good,2024-01-09,2025-01-08
+P00172,C00172,Lucas,Williams,56,Female,WA,Hyundai,Elantra,2019,Personal Auto,Comprehensive,2447.07,1000,Expired,0,0.0,Poor,2024-03-18,2025-03-18
+P00173,C00173,Isabella,Davis,35,Male,NY,Honda,Civic,2019,Personal Auto,Collision,807.19,750,Active,2,13954.71,Excellent,2024-03-17,2025-03-17
+P00174,C00174,Ava,Johnson,38,Male,AZ,Nissan,Altima,2024,Personal Auto,Full Coverage,1039.35,250,Active,1,6503.71,Poor,2024-05-01,2025-05-01
+P00175,C00175,Liam,Anderson,30,Female,FL,Hyundai,Elantra,2015,Personal Auto,Full Coverage,822.17,1000,Cancelled,2,7701.16,Poor,2024-01-01,2024-12-31
+P00176,C00176,Charlotte,Rodriguez,67,Male,AZ,Honda,Civic,2019,Commercial Auto,Liability Only,1579.95,250,Cancelled,1,13783.28,Very Good,2024-07-04,2025-07-04
+P00177,C00177,Lucas,Miller,30,Male,GA,Chevrolet,Malibu,2024,Commercial Auto,Full Coverage,1402.7,750,Expired,2,9401.91,Excellent,2024-02-22,2025-02-21
+P00178,C00178,Isabella,Jones,50,Female,NY,Kia,Sportage,2020,Personal Auto,Collision,715.71,750,Cancelled,2,3862.51,Excellent,2024-01-31,2025-01-30
+P00179,C00179,Charlotte,Williams,53,Male,IL,BMW,3 Series,2020,Personal Auto,Liability Only,1948.85,1000,Expired,2,3891.72,Good,2024-07-31,2025-07-31
+P00180,C00180,Emma,Anderson,55,Female,NC,Audi,A4,2019,Personal Auto,Collision,2038.68,1000,Expired,2,9029.04,Excellent,2024-12-03,2025-12-03
+P00181,C00181,Olivia,Brown,30,Female,NY,BMW,3 Series,2015,Personal Auto,Collision,947.51,500,Expired,3,14512.57,Good,2024-12-03,2025-12-03
+P00182,C00182,Noah,Miller,41,Female,NV,Audi,A4,2021,Commercial Auto,Full Coverage,2285.82,250,Active,0,0.0,Excellent,2024-11-02,2025-11-02
+P00183,C00183,Harper,Rodriguez,44,Female,GA,Tesla,Model 3,2017,Personal Auto,Collision,914.5,750,Cancelled,3,1599.28,Poor,2024-09-30,2025-09-30
+P00184,C00184,Lucas,Rodriguez,30,Male,FL,Chevrolet,Malibu,2018,Personal Auto,Liability Only,1992.38,1000,Expired,0,0.0,Fair,2024-02-19,2025-02-18
+P00185,C00185,Michael,Williams,38,Female,TX,Honda,Civic,2022,Commercial Auto,Liability Only,1947.91,1000,Cancelled,3,8036.62,Fair,2024-12-20,2025-12-20
+P00186,C00186,James,Miller,63,Male,NY,Hyundai,Elantra,2023,Personal Auto,Full Coverage,1629.26,1000,Cancelled,1,12383.16,Fair,2024-12-17,2025-12-17
+P00187,C00187,Harper,Taylor,25,Male,TX,Kia,Sportage,2021,Commercial Auto,Comprehensive,2369.48,1000,Cancelled,1,6652.67,Fair,2024-08-05,2025-08-05
+P00188,C00188,Sophia,Davis,67,Female,GA,Nissan,Altima,2023,Personal Auto,Comprehensive,2420.83,500,Expired,2,9619.46,Excellent,2024-04-04,2025-04-04
+P00189,C00189,Benjamin,Taylor,59,Male,IL,Kia,Sportage,2023,Commercial Auto,Full Coverage,1351.82,1000,Cancelled,1,9354.2,Excellent,2024-02-15,2025-02-14
+P00190,C00190,Liam,Brown,57,Female,FL,Kia,Sportage,2016,Personal Auto,Collision,2275.03,250,Active,2,2802.73,Poor,2024-09-02,2025-09-02
+P00191,C00191,Charlotte,Taylor,50,Male,NV,Kia,Sportage,2016,Personal Auto,Comprehensive,2211.53,1000,Expired,2,7285.34,Fair,2024-10-24,2025-10-24
+P00192,C00192,Lucas,Martinez,57,Male,CA,Chevrolet,Malibu,2022,Commercial Auto,Comprehensive,2266.34,250,Cancelled,2,9189.28,Poor,2024-01-12,2025-01-11
+P00193,C00193,William,Davis,72,Female,AZ,Audi,A4,2024,Personal Auto,Liability Only,1676.02,750,Expired,1,892.13,Good,2024-09-07,2025-09-07
+P00194,C00194,Amelia,Jones,32,Female,NY,Honda,Civic,2023,Commercial Auto,Comprehensive,781.55,500,Expired,3,12246.71,Good,2024-01-17,2025-01-16
+P00195,C00195,Amelia,Jones,52,Male,FL,Kia,Sportage,2021,Personal Auto,Collision,841.74,250,Expired,0,0.0,Good,2024-08-04,2025-08-04
+P00196,C00196,William,Garcia,59,Male,WA,Hyundai,Elantra,2018,Personal Auto,Collision,2466.1,1000,Active,0,0.0,Good,2024-02-10,2025-02-09
+P00197,C00197,John,Johnson,22,Male,GA,Audi,A4,2015,Personal Auto,Full Coverage,1823.46,1000,Active,0,0.0,Poor,2024-10-06,2025-10-06
+P00198,C00198,William,Miller,57,Male,NV,Nissan,Altima,2019,Commercial Auto,Liability Only,987.23,750,Expired,2,8958.82,Very Good,2024-09-27,2025-09-27
+P00199,C00199,Evelyn,Garcia,61,Female,AZ,Audi,A4,2023,Commercial Auto,Collision,2451.55,500,Active,2,11729.02,Good,2024-09-05,2025-09-05
+P00200,C00200,Henry,Jones,53,Female,CA,Tesla,Model 3,2017,Commercial Auto,Comprehensive,828.88,500,Expired,1,11803.86,Very Good,2024-05-07,2025-05-07
+P00201,C00201,Evelyn,Williams,39,Female,CA,Kia,Sportage,2024,Personal Auto,Comprehensive,1344.71,1000,Cancelled,3,4412.28,Fair,2024-03-16,2025-03-16
+P00202,C00202,Liam,Garcia,44,Female,TX,BMW,3 Series,2020,Commercial Auto,Comprehensive,840.02,750,Expired,3,10803.98,Good,2024-07-27,2025-07-27
+P00203,C00203,William,Johnson,62,Female,WA,Ford,F-150,2017,Personal Auto,Liability Only,1811.4,500,Active,3,4916.0,Excellent,2024-10-22,2025-10-22
+P00204,C00204,James,Taylor,21,Male,NY,Ford,F-150,2022,Commercial Auto,Collision,2045.12,250,Cancelled,1,1587.86,Good,2024-02-18,2025-02-17
+P00205,C00205,Olivia,Miller,55,Male,CA,Honda,Civic,2024,Commercial Auto,Comprehensive,747.36,1000,Expired,0,0.0,Poor,2024-10-18,2025-10-18
+P00206,C00206,James,Garcia,44,Male,FL,Audi,A4,2021,Personal Auto,Comprehensive,1729.57,500,Expired,1,7477.08,Poor,2024-02-04,2025-02-03
+P00207,C00207,Olivia,Thomas,44,Male,GA,Chevrolet,Malibu,2018,Personal Auto,Liability Only,857.36,500,Expired,0,0.0,Very Good,2024-12-10,2025-12-10
+P00208,C00208,William,Wilson,41,Male,NC,BMW,3 Series,2020,Commercial Auto,Liability Only,628.26,500,Expired,1,4108.01,Good,2024-01-10,2025-01-09
+P00209,C00209,Evelyn,Thomas,64,Female,IL,Tesla,Model 3,2023,Commercial Auto,Comprehensive,1910.78,750,Expired,1,4793.79,Good,2024-06-06,2025-06-06
+P00210,C00210,Olivia,Brown,33,Female,NY,BMW,3 Series,2022,Personal Auto,Liability Only,1644.84,750,Cancelled,1,13430.39,Poor,2024-02-08,2025-02-07
+P00211,C00211,Evelyn,Martinez,50,Male,AZ,Kia,Sportage,2024,Personal Auto,Comprehensive,2025.17,250,Expired,2,10734.26,Excellent,2024-04-28,2025-04-28
+P00212,C00212,Ava,Davis,51,Female,NY,Nissan,Altima,2022,Personal Auto,Collision,1341.11,1000,Expired,2,8324.62,Fair,2024-09-27,2025-09-27
+P00213,C00213,James,Taylor,28,Male,FL,Hyundai,Elantra,2017,Personal Auto,Liability Only,2349.78,500,Cancelled,3,8892.04,Poor,2024-01-08,2025-01-07
+P00214,C00214,James,Wilson,43,Female,TX,Chevrolet,Malibu,2024,Commercial Auto,Collision,1548.8,1000,Cancelled,2,2926.1,Very Good,2024-09-21,2025-09-21
+P00215,C00215,Lucas,Jones,66,Male,IL,Chevrolet,Malibu,2017,Commercial Auto,Full Coverage,2351.29,1000,Cancelled,2,7195.59,Good,2024-11-08,2025-11-08
+P00216,C00216,Ava,Thomas,42,Male,IL,Toyota,Camry,2023,Personal Auto,Comprehensive,2369.79,250,Expired,0,0.0,Poor,2024-11-18,2025-11-18
+P00217,C00217,Emma,Martinez,60,Female,GA,Tesla,Model 3,2019,Personal Auto,Full Coverage,2308.59,500,Active,1,9959.09,Good,2024-01-02,2025-01-01
+P00218,C00218,Liam,Martinez,72,Female,GA,Toyota,Camry,2015,Commercial Auto,Liability Only,2129.21,1000,Active,0,0.0,Excellent,2024-05-22,2025-05-22
+P00219,C00219,Benjamin,Davis,35,Female,NV,Chevrolet,Malibu,2020,Personal Auto,Comprehensive,2280.34,250,Active,1,6000.36,Poor,2024-03-01,2025-03-01
+P00220,C00220,James,Wilson,32,Male,NC,Audi,A4,2017,Personal Auto,Collision,1440.43,750,Cancelled,3,13551.93,Excellent,2024-04-15,2025-04-15
+P00221,C00221,James,Garcia,39,Female,CA,Kia,Sportage,2017,Commercial Auto,Comprehensive,2472.36,500,Cancelled,3,1629.76,Very Good,2024-03-28,2025-03-28
+P00222,C00222,Amelia,Miller,29,Female,TX,Nissan,Altima,2024,Personal Auto,Comprehensive,639.3,250,Cancelled,2,2552.71,Very Good,2024-10-01,2025-10-01
+P00223,C00223,Ava,Brown,23,Male,GA,Toyota,Camry,2018,Commercial Auto,Collision,1688.08,1000,Active,1,7405.14,Good,2024-12-11,2025-12-11
+P00224,C00224,James,Smith,66,Female,IL,Honda,Civic,2021,Personal Auto,Collision,1472.84,1000,Expired,3,9417.84,Poor,2024-02-20,2025-02-19
+P00225,C00225,John,Taylor,50,Female,TX,Hyundai,Elantra,2016,Personal Auto,Liability Only,1279.59,250,Active,2,5217.38,Fair,2024-07-31,2025-07-31
+P00226,C00226,Henry,Anderson,69,Female,IL,Tesla,Model 3,2021,Commercial Auto,Full Coverage,2202.73,500,Cancelled,1,5820.06,Poor,2024-10-27,2025-10-27
+P00227,C00227,James,Anderson,64,Male,WA,BMW,3 Series,2020,Commercial Auto,Comprehensive,1086.05,1000,Cancelled,0,0.0,Excellent,2024-10-24,2025-10-24
+P00228,C00228,Benjamin,Garcia,40,Male,NY,Chevrolet,Malibu,2017,Personal Auto,Liability Only,798.5,750,Expired,1,5356.41,Good,2024-03-29,2025-03-29
+P00229,C00229,Charlotte,Garcia,24,Male,CA,Tesla,Model 3,2019,Personal Auto,Liability Only,1837.77,500,Expired,1,4009.7,Excellent,2024-05-26,2025-05-26
+P00230,C00230,Olivia,Garcia,52,Male,NV,Nissan,Altima,2020,Personal Auto,Comprehensive,872.85,750,Expired,3,11289.04,Fair,2024-03-07,2025-03-07
+P00231,C00231,Noah,Williams,72,Female,IL,Chevrolet,Malibu,2022,Commercial Auto,Liability Only,1819.05,500,Cancelled,0,0.0,Poor,2024-12-18,2025-12-18
+P00232,C00232,William,Miller,64,Female,NC,Toyota,Camry,2022,Commercial Auto,Collision,2250.08,500,Cancelled,3,1660.78,Good,2024-02-19,2025-02-18
+P00233,C00233,Ava,Smith,74,Male,NC,Nissan,Altima,2016,Commercial Auto,Liability Only,1540.95,250,Cancelled,3,12467.89,Poor,2024-04-08,2025-04-08
+P00234,C00234,Michael,Wilson,23,Female,TX,Audi,A4,2022,Personal Auto,Liability Only,725.72,500,Active,0,0.0,Excellent,2024-06-17,2025-06-17
+P00235,C00235,Michael,Anderson,48,Male,NY,Nissan,Altima,2018,Commercial Auto,Comprehensive,1692.97,500,Expired,2,14999.17,Excellent,2024-06-17,2025-06-17
+P00236,C00236,Lucas,Brown,45,Female,AZ,Toyota,Camry,2019,Commercial Auto,Full Coverage,896.99,1000,Active,3,6072.47,Fair,2024-01-21,2025-01-20
+P00237,C00237,James,Brown,44,Male,TX,Tesla,Model 3,2017,Commercial Auto,Collision,1937.83,250,Cancelled,0,0.0,Good,2024-12-29,2025-12-29
+P00238,C00238,Olivia,Garcia,54,Male,GA,Chevrolet,Malibu,2023,Commercial Auto,Collision,847.72,1000,Expired,1,4688.42,Excellent,2024-02-01,2025-01-31
+P00239,C00239,John,Wilson,71,Female,IL,Kia,Sportage,2023,Commercial Auto,Comprehensive,1006.35,500,Active,1,7284.83,Poor,2024-12-13,2025-12-13
+P00240,C00240,Noah,Anderson,68,Male,GA,Hyundai,Elantra,2024,Personal Auto,Collision,2155.44,250,Cancelled,0,0.0,Fair,2024-07-07,2025-07-07
+P00241,C00241,James,Martinez,28,Female,CA,Audi,A4,2015,Commercial Auto,Collision,1856.78,1000,Active,1,625.01,Excellent,2024-02-21,2025-02-20
+P00242,C00242,William,Wilson,26,Female,CA,Toyota,Camry,2022,Personal Auto,Collision,943.48,250,Expired,2,11056.97,Excellent,2024-02-09,2025-02-08
+P00243,C00243,John,Jones,22,Female,CA,Hyundai,Elantra,2017,Personal Auto,Comprehensive,2105.86,250,Active,2,1579.43,Good,2024-10-21,2025-10-21
+P00244,C00244,John,Williams,71,Female,WA,Tesla,Model 3,2021,Commercial Auto,Comprehensive,1476.25,750,Expired,3,7959.48,Good,2024-12-03,2025-12-03
+P00245,C00245,Emma,Smith,66,Male,AZ,Tesla,Model 3,2022,Personal Auto,Collision,2093.92,1000,Active,3,4535.11,Excellent,2024-01-25,2025-01-24
+P00246,C00246,Michael,Miller,56,Female,WA,Toyota,Camry,2018,Personal Auto,Comprehensive,835.09,500,Active,3,10920.78,Good,2024-10-26,2025-10-26
+P00247,C00247,Sophia,Johnson,41,Female,CA,Nissan,Altima,2019,Commercial Auto,Liability Only,1546.8,750,Cancelled,3,8432.6,Fair,2024-09-16,2025-09-16
+P00248,C00248,Lucas,Wilson,21,Male,TX,Toyota,Camry,2020,Commercial Auto,Full Coverage,2126.35,250,Cancelled,3,13936.04,Fair,2024-11-01,2025-11-01
+P00249,C00249,Benjamin,Martinez,39,Male,NY,Kia,Sportage,2016,Personal Auto,Liability Only,933.12,1000,Expired,3,14392.91,Very Good,2024-03-16,2025-03-16
+P00250,C00250,Harper,Thomas,34,Male,GA,Nissan,Altima,2015,Personal Auto,Full Coverage,1707.78,500,Cancelled,2,8558.8,Very Good,2024-07-24,2025-07-24
+P00251,C00251,Ava,Rodriguez,39,Male,WA,Tesla,Model 3,2024,Commercial Auto,Comprehensive,1565.79,500,Expired,0,0.0,Very Good,2024-07-06,2025-07-06
+P00252,C00252,Sophia,Brown,39,Male,WA,Tesla,Model 3,2015,Personal Auto,Liability Only,914.5,500,Cancelled,2,4426.7,Excellent,2024-02-17,2025-02-16
+P00253,C00253,William,Miller,33,Male,IL,Tesla,Model 3,2023,Personal Auto,Collision,1023.4,500,Expired,2,14840.24,Good,2024-11-18,2025-11-18
+P00254,C00254,Harper,Williams,32,Female,AZ,Tesla,Model 3,2019,Commercial Auto,Comprehensive,749.87,750,Cancelled,2,2324.5,Good,2024-10-01,2025-10-01
+P00255,C00255,Henry,Thomas,68,Male,WA,Ford,F-150,2020,Commercial Auto,Collision,2320.76,1000,Expired,0,0.0,Excellent,2024-08-24,2025-08-24
+P00256,C00256,Ava,Martinez,44,Male,FL,Toyota,Camry,2021,Personal Auto,Full Coverage,2367.59,250,Cancelled,1,7884.59,Excellent,2024-04-28,2025-04-28
+P00257,C00257,Amelia,Davis,28,Female,AZ,Chevrolet,Malibu,2021,Commercial Auto,Liability Only,2072.75,1000,Cancelled,1,14612.64,Very Good,2024-05-29,2025-05-29
+P00258,C00258,Ava,Davis,64,Female,NC,Chevrolet,Malibu,2024,Commercial Auto,Comprehensive,1012.33,250,Expired,2,4104.13,Fair,2024-11-03,2025-11-03
+P00259,C00259,Olivia,Taylor,43,Male,NV,Hyundai,Elantra,2015,Commercial Auto,Collision,734.81,1000,Cancelled,1,4445.44,Excellent,2024-10-27,2025-10-27
+P00260,C00260,James,Rodriguez,62,Female,NV,Ford,F-150,2019,Personal Auto,Liability Only,1752.3,500,Active,1,1170.05,Excellent,2024-10-29,2025-10-29
+P00261,C00261,Isabella,Garcia,37,Male,GA,Tesla,Model 3,2024,Personal Auto,Full Coverage,2119.61,500,Active,0,0.0,Excellent,2024-03-01,2025-03-01
+P00262,C00262,James,Johnson,33,Female,NV,Toyota,Camry,2021,Commercial Auto,Liability Only,1591.34,500,Cancelled,2,2325.78,Excellent,2024-01-03,2025-01-02
+P00263,C00263,Evelyn,Anderson,29,Female,GA,Tesla,Model 3,2024,Personal Auto,Liability Only,2360.96,750,Active,3,2656.5,Excellent,2024-02-03,2025-02-02
+P00264,C00264,Amelia,Williams,27,Female,IL,BMW,3 Series,2016,Personal Auto,Liability Only,1398.57,1000,Cancelled,0,0.0,Excellent,2024-11-14,2025-11-14
+P00265,C00265,Benjamin,Garcia,41,Female,GA,Honda,Civic,2020,Commercial Auto,Comprehensive,1594.0,1000,Cancelled,3,8860.79,Poor,2024-12-15,2025-12-15
+P00266,C00266,Ava,Garcia,46,Male,WA,Chevrolet,Malibu,2017,Personal Auto,Comprehensive,1336.45,1000,Cancelled,2,7308.99,Good,2024-07-25,2025-07-25
+P00267,C00267,Lucas,Wilson,72,Female,NY,Hyundai,Elantra,2017,Personal Auto,Liability Only,972.02,750,Cancelled,3,599.11,Fair,2024-09-15,2025-09-15
+P00268,C00268,John,Thomas,71,Male,GA,Nissan,Altima,2019,Commercial Auto,Liability Only,1674.08,750,Expired,2,6081.61,Poor,2024-07-24,2025-07-24
+P00269,C00269,Lucas,Anderson,35,Male,NC,Kia,Sportage,2021,Commercial Auto,Full Coverage,1325.56,250,Cancelled,2,2003.9,Good,2024-10-12,2025-10-12
+P00270,C00270,Emma,Jones,46,Male,AZ,Nissan,Altima,2022,Commercial Auto,Liability Only,1593.94,1000,Cancelled,2,9216.15,Good,2024-08-13,2025-08-13
+P00271,C00271,Liam,Davis,67,Male,IL,Nissan,Altima,2017,Personal Auto,Full Coverage,2387.09,500,Cancelled,2,1081.34,Poor,2024-12-19,2025-12-19
+P00272,C00272,Harper,Davis,66,Male,NY,Ford,F-150,2022,Personal Auto,Full Coverage,2070.82,250,Expired,3,13180.42,Good,2024-12-09,2025-12-09
+P00273,C00273,James,Johnson,64,Female,AZ,Ford,F-150,2018,Personal Auto,Collision,1304.22,500,Expired,2,10937.77,Very Good,2024-05-12,2025-05-12
+P00274,C00274,Benjamin,Rodriguez,45,Female,AZ,Tesla,Model 3,2024,Personal Auto,Liability Only,735.88,1000,Expired,2,5503.68,Good,2024-11-07,2025-11-07
+P00275,C00275,Charlotte,Garcia,30,Female,TX,Hyundai,Elantra,2019,Personal Auto,Liability Only,949.31,750,Expired,2,4252.48,Excellent,2024-08-07,2025-08-07
+P00276,C00276,John,Martinez,40,Male,FL,BMW,3 Series,2016,Personal Auto,Collision,1780.0,750,Expired,0,0.0,Excellent,2024-02-09,2025-02-08
+P00277,C00277,James,Taylor,75,Female,IL,Nissan,Altima,2020,Personal Auto,Full Coverage,1426.67,1000,Expired,0,0.0,Fair,2024-03-03,2025-03-03
+P00278,C00278,William,Smith,21,Female,IL,Honda,Civic,2019,Commercial Auto,Comprehensive,1559.04,500,Active,2,1932.63,Fair,2024-03-03,2025-03-03
+P00279,C00279,William,Anderson,53,Male,NV,Ford,F-150,2023,Personal Auto,Collision,1023.54,500,Expired,2,7070.27,Fair,2024-10-28,2025-10-28
+P00280,C00280,Olivia,Martinez,34,Male,TX,Nissan,Altima,2019,Commercial Auto,Liability Only,1975.45,750,Active,0,0.0,Good,2024-02-18,2025-02-17
+P00281,C00281,Lucas,Garcia,75,Female,NY,Honda,Civic,2018,Commercial Auto,Liability Only,1451.88,500,Active,0,0.0,Poor,2024-12-17,2025-12-17
+P00282,C00282,Isabella,Smith,32,Male,GA,BMW,3 Series,2017,Commercial Auto,Collision,1275.49,250,Expired,3,8508.71,Fair,2024-03-29,2025-03-29
+P00283,C00283,Lucas,Taylor,32,Female,AZ,Toyota,Camry,2021,Personal Auto,Collision,1295.14,750,Expired,2,10203.99,Poor,2024-11-30,2025-11-30
+P00284,C00284,Michael,Garcia,29,Male,NY,Ford,F-150,2021,Personal Auto,Liability Only,1715.73,250,Expired,2,8517.13,Poor,2024-03-03,2025-03-03
+P00285,C00285,Olivia,Johnson,35,Female,TX,Audi,A4,2016,Personal Auto,Full Coverage,645.99,750,Active,0,0.0,Poor,2024-09-06,2025-09-06
+P00286,C00286,Henry,Anderson,42,Female,NV,Honda,Civic,2016,Commercial Auto,Collision,814.89,750,Cancelled,3,8718.87,Good,2024-04-10,2025-04-10
+P00287,C00287,Emma,Brown,65,Female,CA,Honda,Civic,2021,Personal Auto,Collision,1001.66,250,Active,1,3953.21,Fair,2024-07-20,2025-07-20
+P00288,C00288,John,Smith,66,Male,CA,Toyota,Camry,2018,Personal Auto,Liability Only,1127.03,250,Cancelled,0,0.0,Fair,2024-04-04,2025-04-04
+P00289,C00289,Lucas,Miller,56,Male,NY,Toyota,Camry,2022,Personal Auto,Full Coverage,792.23,250,Active,2,10743.54,Good,2024-02-22,2025-02-21
+P00290,C00290,Lucas,Miller,69,Male,AZ,Toyota,Camry,2024,Commercial Auto,Liability Only,817.31,1000,Expired,0,0.0,Fair,2024-07-03,2025-07-03
+P00291,C00291,Charlotte,Jones,65,Female,CA,BMW,3 Series,2023,Personal Auto,Comprehensive,1966.65,750,Expired,2,749.7,Fair,2024-01-11,2025-01-10
+P00292,C00292,James,Johnson,50,Male,NY,Kia,Sportage,2024,Commercial Auto,Collision,1884.91,500,Expired,1,14892.72,Poor,2024-09-13,2025-09-13
+P00293,C00293,Evelyn,Taylor,55,Female,FL,Honda,Civic,2018,Personal Auto,Collision,1261.95,750,Cancelled,0,0.0,Excellent,2024-04-18,2025-04-18
+P00294,C00294,Isabella,Rodriguez,54,Female,NY,Nissan,Altima,2024,Personal Auto,Full Coverage,1454.2,750,Cancelled,3,7352.84,Poor,2024-09-12,2025-09-12
+P00295,C00295,Liam,Johnson,45,Male,NY,Honda,Civic,2018,Personal Auto,Full Coverage,1451.96,250,Active,0,0.0,Fair,2024-06-20,2025-06-20
+P00296,C00296,Ava,Anderson,28,Female,NC,Honda,Civic,2022,Commercial Auto,Collision,1636.34,250,Cancelled,0,0.0,Very Good,2024-03-03,2025-03-03
+P00297,C00297,Liam,Williams,27,Female,WA,BMW,3 Series,2021,Personal Auto,Full Coverage,1831.9,500,Active,1,6609.6,Excellent,2024-05-20,2025-05-20
+P00298,C00298,Michael,Martinez,35,Male,AZ,Hyundai,Elantra,2024,Personal Auto,Liability Only,1897.67,500,Expired,3,6672.28,Fair,2024-11-22,2025-11-22
+P00299,C00299,Michael,Williams,29,Male,TX,Audi,A4,2016,Personal Auto,Comprehensive,2104.42,1000,Expired,3,14985.26,Good,2024-08-22,2025-08-22
+P00300,C00300,Michael,Garcia,57,Male,FL,Toyota,Camry,2024,Personal Auto,Comprehensive,2227.83,1000,Expired,2,14698.42,Very Good,2024-05-31,2025-05-31
+P00301,C00301,Lucas,Smith,35,Male,FL,Kia,Sportage,2021,Personal Auto,Full Coverage,2087.36,1000,Cancelled,2,12699.1,Poor,2024-12-06,2025-12-06
+P00302,C00302,Charlotte,Williams,50,Female,NC,Audi,A4,2021,Personal Auto,Full Coverage,1506.05,750,Cancelled,3,3307.76,Poor,2024-07-07,2025-07-07
+P00303,C00303,Benjamin,Martinez,49,Female,GA,Chevrolet,Malibu,2015,Commercial Auto,Comprehensive,1502.58,250,Expired,1,7218.55,Poor,2024-09-14,2025-09-14
+P00304,C00304,Isabella,Jones,53,Male,GA,Tesla,Model 3,2023,Personal Auto,Collision,1210.67,1000,Active,1,8333.49,Poor,2024-02-22,2025-02-21
+P00305,C00305,James,Taylor,34,Male,GA,Toyota,Camry,2015,Commercial Auto,Collision,2495.32,250,Cancelled,1,5859.88,Fair,2024-09-16,2025-09-16
+P00306,C00306,Liam,Anderson,66,Male,NV,Ford,F-150,2018,Commercial Auto,Comprehensive,1480.52,500,Expired,1,4976.53,Excellent,2024-06-17,2025-06-17
+P00307,C00307,Henry,Williams,35,Male,NY,Toyota,Camry,2020,Personal Auto,Collision,2176.39,250,Expired,0,0.0,Very Good,2024-01-04,2025-01-03
+P00308,C00308,Harper,Williams,60,Female,NC,BMW,3 Series,2021,Commercial Auto,Comprehensive,2021.51,1000,Active,2,5262.52,Very Good,2024-11-03,2025-11-03
+P00309,C00309,Michael,Garcia,46,Female,CA,Tesla,Model 3,2021,Personal Auto,Comprehensive,795.25,500,Active,0,0.0,Excellent,2024-02-16,2025-02-15
+P00310,C00310,Harper,Anderson,60,Female,AZ,Ford,F-150,2023,Commercial Auto,Full Coverage,2075.25,1000,Active,0,0.0,Very Good,2024-02-22,2025-02-21
+P00311,C00311,Olivia,Taylor,63,Female,NY,BMW,3 Series,2022,Personal Auto,Full Coverage,1250.05,750,Active,0,0.0,Poor,2024-11-11,2025-11-11
+P00312,C00312,Harper,Rodriguez,64,Male,IL,Kia,Sportage,2023,Commercial Auto,Comprehensive,2122.29,250,Expired,2,11735.87,Excellent,2024-10-01,2025-10-01
+P00313,C00313,William,Thomas,71,Female,AZ,Toyota,Camry,2016,Commercial Auto,Comprehensive,2440.45,250,Cancelled,0,0.0,Good,2024-01-10,2025-01-09
+P00314,C00314,James,Wilson,39,Female,NC,Tesla,Model 3,2017,Commercial Auto,Collision,1382.27,250,Cancelled,3,13801.31,Fair,2024-04-20,2025-04-20
+P00315,C00315,Olivia,Johnson,50,Male,NC,Chevrolet,Malibu,2023,Personal Auto,Collision,2468.65,750,Active,0,0.0,Very Good,2024-05-07,2025-05-07
+P00316,C00316,Benjamin,Jones,29,Male,NV,Chevrolet,Malibu,2015,Commercial Auto,Comprehensive,1525.12,750,Active,1,13792.31,Fair,2024-04-27,2025-04-27
+P00317,C00317,Harper,Thomas,61,Female,GA,Audi,A4,2018,Commercial Auto,Collision,2370.5,250,Expired,1,7774.78,Poor,2024-10-31,2025-10-31
+P00318,C00318,Harper,Taylor,72,Male,NC,Audi,A4,2017,Commercial Auto,Liability Only,2352.31,1000,Expired,2,7891.26,Poor,2024-05-24,2025-05-24
+P00319,C00319,William,Smith,22,Male,WA,BMW,3 Series,2016,Commercial Auto,Liability Only,637.43,1000,Expired,0,0.0,Poor,2024-08-06,2025-08-06
+P00320,C00320,Amelia,Thomas,51,Male,WA,Toyota,Camry,2022,Commercial Auto,Full Coverage,1959.46,250,Cancelled,0,0.0,Excellent,2024-12-13,2025-12-13
+P00321,C00321,Olivia,Thomas,26,Female,CA,BMW,3 Series,2019,Commercial Auto,Comprehensive,1707.13,250,Active,1,11320.31,Fair,2024-11-26,2025-11-26
+P00322,C00322,John,Garcia,23,Female,NC,Audi,A4,2018,Commercial Auto,Liability Only,913.52,750,Expired,1,3195.8,Poor,2024-12-15,2025-12-15
+P00323,C00323,Henry,Johnson,38,Female,NY,Hyundai,Elantra,2017,Commercial Auto,Collision,848.28,250,Cancelled,2,9471.02,Excellent,2024-01-05,2025-01-04
+P00324,C00324,James,Martinez,66,Female,GA,Hyundai,Elantra,2018,Commercial Auto,Collision,665.11,750,Active,2,3646.76,Excellent,2024-06-10,2025-06-10
+P00325,C00325,Ava,Williams,71,Female,WA,Kia,Sportage,2019,Commercial Auto,Comprehensive,1920.15,250,Cancelled,1,9560.37,Excellent,2024-09-06,2025-09-06
+P00326,C00326,William,Wilson,29,Female,NC,BMW,3 Series,2016,Personal Auto,Collision,1962.34,750,Cancelled,2,9941.29,Poor,2024-12-07,2025-12-07
+P00327,C00327,Lucas,Wilson,50,Female,IL,Hyundai,Elantra,2016,Commercial Auto,Collision,1013.6,750,Expired,2,14634.83,Fair,2024-08-08,2025-08-08
+P00328,C00328,Olivia,Miller,25,Male,GA,Tesla,Model 3,2015,Commercial Auto,Collision,1298.23,1000,Expired,3,3619.03,Good,2024-02-27,2025-02-26
+P00329,C00329,Amelia,Brown,24,Female,NC,Chevrolet,Malibu,2016,Personal Auto,Full Coverage,1288.88,1000,Expired,1,12254.08,Good,2024-10-02,2025-10-02
+P00330,C00330,Isabella,Taylor,28,Female,FL,Audi,A4,2020,Commercial Auto,Comprehensive,1157.45,250,Cancelled,2,6357.97,Poor,2024-04-01,2025-04-01
+P00331,C00331,John,Johnson,47,Female,NY,Honda,Civic,2018,Personal Auto,Liability Only,1955.38,1000,Cancelled,3,7344.76,Fair,2024-04-15,2025-04-15
+P00332,C00332,Olivia,Miller,26,Female,NV,Honda,Civic,2016,Commercial Auto,Comprehensive,1742.8,500,Expired,3,1705.94,Good,2024-01-13,2025-01-12
+P00333,C00333,Isabella,Garcia,23,Male,IL,Tesla,Model 3,2018,Commercial Auto,Collision,1566.31,500,Active,1,4859.86,Poor,2024-01-03,2025-01-02
+P00334,C00334,William,Garcia,46,Female,NV,Honda,Civic,2015,Personal Auto,Collision,1658.81,500,Cancelled,3,14857.98,Very Good,2024-02-06,2025-02-05
+P00335,C00335,William,Garcia,54,Male,FL,BMW,3 Series,2020,Personal Auto,Comprehensive,1988.57,750,Expired,3,6315.51,Excellent,2024-03-28,2025-03-28
+P00336,C00336,William,Johnson,73,Female,TX,Hyundai,Elantra,2023,Personal Auto,Full Coverage,827.35,1000,Cancelled,0,0.0,Good,2024-05-15,2025-05-15
+P00337,C00337,Ava,Smith,41,Female,CA,BMW,3 Series,2020,Personal Auto,Collision,1482.8,500,Active,1,5353.61,Good,2024-08-20,2025-08-20
+P00338,C00338,Amelia,Rodriguez,54,Male,NC,Hyundai,Elantra,2018,Commercial Auto,Liability Only,1582.67,250,Cancelled,0,0.0,Excellent,2024-01-01,2024-12-31
+P00339,C00339,William,Garcia,43,Male,AZ,Ford,F-150,2017,Personal Auto,Liability Only,623.53,500,Cancelled,1,4673.01,Good,2024-09-01,2025-09-01
+P00340,C00340,Ava,Miller,63,Male,AZ,Ford,F-150,2019,Commercial Auto,Liability Only,1535.48,750,Expired,3,4188.68,Excellent,2024-05-26,2025-05-26
+P00341,C00341,Michael,Williams,67,Male,TX,Kia,Sportage,2017,Commercial Auto,Collision,2002.0,750,Active,2,5040.94,Poor,2024-11-18,2025-11-18
+P00342,C00342,John,Garcia,70,Male,IL,BMW,3 Series,2024,Personal Auto,Collision,928.67,1000,Expired,0,0.0,Fair,2024-02-06,2025-02-05
+P00343,C00343,Amelia,Davis,67,Male,TX,Tesla,Model 3,2022,Commercial Auto,Full Coverage,1247.22,1000,Cancelled,0,0.0,Fair,2024-11-15,2025-11-15
+P00344,C00344,Michael,Anderson,60,Male,NV,Tesla,Model 3,2024,Personal Auto,Full Coverage,1457.04,750,Expired,2,3460.08,Very Good,2024-07-22,2025-07-22
+P00345,C00345,Lucas,Martinez,74,Male,FL,Tesla,Model 3,2022,Personal Auto,Liability Only,1424.58,250,Cancelled,2,3645.27,Very Good,2024-12-22,2025-12-22
+P00346,C00346,Emma,Miller,42,Male,NC,Ford,F-150,2022,Personal Auto,Collision,690.77,500,Expired,2,6246.21,Good,2024-08-09,2025-08-09
+P00347,C00347,Olivia,Garcia,40,Male,FL,Kia,Sportage,2016,Commercial Auto,Full Coverage,1461.77,500,Active,3,2257.33,Fair,2024-01-03,2025-01-02
+P00348,C00348,Amelia,Garcia,39,Male,TX,Honda,Civic,2016,Personal Auto,Collision,1112.82,250,Expired,0,0.0,Good,2024-03-25,2025-03-25
+P00349,C00349,Evelyn,Garcia,45,Male,GA,Ford,F-150,2020,Commercial Auto,Collision,1040.19,250,Active,1,8998.07,Fair,2024-10-24,2025-10-24
+P00350,C00350,Isabella,Anderson,33,Female,WA,Chevrolet,Malibu,2015,Commercial Auto,Full Coverage,1658.42,500,Active,1,4978.17,Poor,2024-07-11,2025-07-11
+P00351,C00351,Benjamin,Garcia,26,Male,FL,Honda,Civic,2016,Personal Auto,Collision,1947.56,250,Cancelled,1,6795.82,Good,2024-02-23,2025-02-22
+P00352,C00352,Liam,Garcia,28,Female,IL,Kia,Sportage,2019,Commercial Auto,Liability Only,1634.84,500,Cancelled,3,5323.27,Poor,2024-03-10,2025-03-10
+P00353,C00353,Noah,Brown,51,Female,CA,Toyota,Camry,2015,Commercial Auto,Collision,2458.83,750,Cancelled,1,8106.47,Good,2024-04-10,2025-04-10
+P00354,C00354,Benjamin,Thomas,43,Female,NV,Honda,Civic,2018,Personal Auto,Comprehensive,2140.58,250,Active,3,14727.31,Good,2024-09-20,2025-09-20
+P00355,C00355,William,Wilson,58,Male,GA,Toyota,Camry,2018,Personal Auto,Comprehensive,1997.31,250,Active,0,0.0,Fair,2024-07-20,2025-07-20
+P00356,C00356,Evelyn,Rodriguez,59,Female,CA,Honda,Civic,2021,Personal Auto,Comprehensive,870.54,250,Cancelled,3,5275.61,Fair,2024-08-30,2025-08-30
+P00357,C00357,John,Jones,25,Male,NV,Audi,A4,2023,Personal Auto,Comprehensive,1422.0,250,Cancelled,1,4801.16,Excellent,2024-02-11,2025-02-10
+P00358,C00358,Michael,Davis,50,Female,CA,Chevrolet,Malibu,2024,Personal Auto,Full Coverage,1620.0,250,Expired,0,0.0,Poor,2024-09-14,2025-09-14
+P00359,C00359,Emma,Thomas,35,Male,WA,Hyundai,Elantra,2020,Personal Auto,Full Coverage,2264.71,500,Cancelled,3,10969.23,Poor,2024-07-30,2025-07-30
+P00360,C00360,James,Miller,37,Female,GA,Toyota,Camry,2019,Commercial Auto,Comprehensive,2418.32,500,Expired,3,6064.21,Good,2024-11-22,2025-11-22
+P00361,C00361,Emma,Smith,29,Female,IL,Ford,F-150,2022,Commercial Auto,Full Coverage,1267.84,1000,Cancelled,2,10632.78,Fair,2024-11-12,2025-11-12
+P00362,C00362,William,Garcia,42,Female,CA,Honda,Civic,2019,Personal Auto,Comprehensive,2126.78,250,Active,1,11632.78,Poor,2024-12-19,2025-12-19
+P00363,C00363,Amelia,Taylor,40,Male,TX,Toyota,Camry,2017,Commercial Auto,Collision,940.44,1000,Cancelled,2,6178.87,Poor,2024-04-27,2025-04-27
+P00364,C00364,Olivia,Rodriguez,43,Male,WA,Tesla,Model 3,2015,Personal Auto,Collision,1351.11,1000,Active,1,12490.67,Very Good,2024-09-14,2025-09-14
+P00365,C00365,Liam,Williams,37,Male,NV,Chevrolet,Malibu,2022,Commercial Auto,Liability Only,1198.12,250,Cancelled,0,0.0,Very Good,2024-06-22,2025-06-22
+P00366,C00366,Isabella,Thomas,53,Female,TX,Hyundai,Elantra,2016,Commercial Auto,Full Coverage,1062.16,750,Active,3,11264.12,Fair,2024-12-20,2025-12-20
+P00367,C00367,Benjamin,Johnson,32,Male,IL,Ford,F-150,2023,Commercial Auto,Collision,1503.84,750,Expired,0,0.0,Poor,2024-10-29,2025-10-29
+P00368,C00368,Liam,Wilson,28,Female,IL,Ford,F-150,2017,Commercial Auto,Liability Only,603.59,500,Cancelled,1,3085.08,Fair,2024-01-24,2025-01-23
+P00369,C00369,Michael,Taylor,61,Female,CA,Ford,F-150,2017,Personal Auto,Comprehensive,2036.42,1000,Cancelled,1,10407.16,Fair,2024-07-09,2025-07-09
+P00370,C00370,Charlotte,Jones,22,Male,TX,Toyota,Camry,2019,Personal Auto,Liability Only,1692.63,750,Active,3,660.3,Fair,2024-02-01,2025-01-31
+P00371,C00371,Sophia,Brown,45,Male,IL,Toyota,Camry,2021,Commercial Auto,Liability Only,1631.5,250,Active,3,8783.93,Fair,2024-03-23,2025-03-23
+P00372,C00372,James,Taylor,28,Female,GA,BMW,3 Series,2016,Commercial Auto,Liability Only,2179.51,250,Active,0,0.0,Good,2024-01-02,2025-01-01
+P00373,C00373,Isabella,Rodriguez,72,Male,AZ,BMW,3 Series,2016,Personal Auto,Full Coverage,1262.09,250,Cancelled,2,4159.16,Very Good,2024-02-16,2025-02-15
+P00374,C00374,Henry,Johnson,34,Female,AZ,Kia,Sportage,2017,Personal Auto,Comprehensive,921.42,750,Cancelled,1,8242.79,Poor,2024-06-10,2025-06-10
+P00375,C00375,Emma,Thomas,28,Female,AZ,Tesla,Model 3,2021,Personal Auto,Comprehensive,2052.28,250,Cancelled,0,0.0,Excellent,2024-12-02,2025-12-02
+P00376,C00376,Lucas,Miller,39,Female,NY,Kia,Sportage,2019,Personal Auto,Full Coverage,1365.49,500,Expired,2,11150.62,Very Good,2024-04-05,2025-04-05
+P00377,C00377,James,Johnson,75,Female,NV,Hyundai,Elantra,2019,Commercial Auto,Full Coverage,2107.89,1000,Expired,1,1665.36,Very Good,2024-11-17,2025-11-17
+P00378,C00378,Michael,Martinez,61,Male,NV,Nissan,Altima,2020,Commercial Auto,Full Coverage,1911.18,500,Active,1,6873.42,Excellent,2024-05-07,2025-05-07
+P00379,C00379,Charlotte,Thomas,59,Female,FL,Tesla,Model 3,2015,Commercial Auto,Collision,1373.38,500,Expired,1,2485.78,Excellent,2024-05-11,2025-05-11
+P00380,C00380,Harper,Brown,72,Male,GA,Hyundai,Elantra,2021,Personal Auto,Full Coverage,1706.95,500,Cancelled,0,0.0,Good,2024-04-13,2025-04-13
+P00381,C00381,Emma,Johnson,70,Male,IL,Kia,Sportage,2024,Personal Auto,Full Coverage,1125.29,250,Active,3,9555.79,Excellent,2024-12-13,2025-12-13
+P00382,C00382,Sophia,Martinez,36,Male,IL,Nissan,Altima,2017,Personal Auto,Comprehensive,1776.88,500,Expired,3,8239.23,Fair,2024-11-20,2025-11-20
+P00383,C00383,Liam,Johnson,63,Female,AZ,Nissan,Altima,2020,Personal Auto,Full Coverage,1393.77,500,Expired,1,1489.22,Fair,2024-07-04,2025-07-04
+P00384,C00384,Benjamin,Taylor,34,Female,IL,Nissan,Altima,2023,Personal Auto,Comprehensive,2340.86,250,Active,3,7389.01,Fair,2024-03-09,2025-03-09
+P00385,C00385,Evelyn,Williams,21,Male,TX,Honda,Civic,2016,Personal Auto,Collision,636.8,1000,Cancelled,1,1153.2,Poor,2024-10-02,2025-10-02
+P00386,C00386,Benjamin,Davis,27,Male,NC,Kia,Sportage,2015,Commercial Auto,Liability Only,643.4,250,Active,3,1162.46,Very Good,2024-03-18,2025-03-18
+P00387,C00387,Lucas,Smith,26,Female,CA,Hyundai,Elantra,2017,Commercial Auto,Comprehensive,1696.91,750,Expired,3,2108.93,Very Good,2024-07-01,2025-07-01
+P00388,C00388,Isabella,Davis,46,Male,CA,Ford,F-150,2015,Personal Auto,Full Coverage,1239.9,250,Active,1,3477.21,Good,2024-11-19,2025-11-19
+P00389,C00389,Lucas,Rodriguez,70,Male,CA,Audi,A4,2021,Personal Auto,Liability Only,2067.99,750,Active,1,1170.79,Very Good,2024-12-28,2025-12-28
+P00390,C00390,Charlotte,Smith,66,Female,AZ,Ford,F-150,2021,Commercial Auto,Full Coverage,1276.68,1000,Cancelled,2,6252.12,Very Good,2024-12-17,2025-12-17
+P00391,C00391,Ava,Wilson,71,Male,NY,Toyota,Camry,2021,Commercial Auto,Comprehensive,2456.57,750,Cancelled,0,0.0,Excellent,2024-12-29,2025-12-29
+P00392,C00392,Charlotte,Johnson,71,Male,FL,Ford,F-150,2018,Personal Auto,Liability Only,1672.04,1000,Cancelled,2,8394.43,Excellent,2024-11-19,2025-11-19
+P00393,C00393,Amelia,Martinez,32,Male,IL,Chevrolet,Malibu,2016,Commercial Auto,Collision,1086.9,1000,Expired,1,14004.52,Good,2024-08-25,2025-08-25
+P00394,C00394,Lucas,Garcia,72,Male,GA,Kia,Sportage,2017,Personal Auto,Collision,2430.72,250,Cancelled,3,7467.8,Very Good,2024-12-19,2025-12-19
+P00395,C00395,Noah,Johnson,73,Male,NV,BMW,3 Series,2023,Personal Auto,Liability Only,1212.53,250,Active,1,5966.68,Good,2024-02-27,2025-02-26
+P00396,C00396,William,Garcia,61,Female,CA,BMW,3 Series,2019,Personal Auto,Collision,704.62,500,Active,2,882.18,Very Good,2024-02-25,2025-02-24
+P00397,C00397,Ava,Johnson,38,Female,NC,Ford,F-150,2016,Personal Auto,Comprehensive,2101.07,250,Expired,0,0.0,Very Good,2024-03-25,2025-03-25
+P00398,C00398,Ava,Wilson,50,Male,NC,BMW,3 Series,2020,Personal Auto,Full Coverage,1724.55,1000,Cancelled,2,14335.37,Very Good,2024-05-04,2025-05-04
+P00399,C00399,Amelia,Martinez,72,Male,NC,Kia,Sportage,2016,Personal Auto,Collision,1519.32,500,Expired,2,7767.81,Poor,2024-03-09,2025-03-09
+P00400,C00400,Ava,Smith,41,Female,CA,Honda,Civic,2015,Personal Auto,Liability Only,2378.68,1000,Active,2,3609.67,Good,2024-05-05,2025-05-05
+P00401,C00401,Sophia,Johnson,23,Male,NV,Ford,F-150,2022,Personal Auto,Liability Only,2457.1,500,Cancelled,2,9260.09,Fair,2024-06-16,2025-06-16
+P00402,C00402,Sophia,Brown,60,Male,WA,BMW,3 Series,2020,Commercial Auto,Full Coverage,1697.58,500,Expired,1,4368.52,Excellent,2024-08-30,2025-08-30
+P00403,C00403,Liam,Miller,37,Male,IL,Hyundai,Elantra,2022,Personal Auto,Full Coverage,1796.22,500,Expired,3,14731.56,Fair,2024-09-07,2025-09-07
+P00404,C00404,Harper,Davis,38,Male,GA,Hyundai,Elantra,2017,Commercial Auto,Comprehensive,2365.63,750,Active,2,6355.74,Good,2024-08-28,2025-08-28
+P00405,C00405,Sophia,Davis,31,Female,NY,Kia,Sportage,2021,Personal Auto,Collision,1065.35,250,Active,1,6624.25,Poor,2024-04-10,2025-04-10
+P00406,C00406,Henry,Wilson,70,Female,NC,Kia,Sportage,2018,Personal Auto,Comprehensive,2415.23,500,Expired,1,1035.29,Fair,2024-06-12,2025-06-12
+P00407,C00407,Olivia,Wilson,23,Male,GA,Honda,Civic,2024,Personal Auto,Full Coverage,1661.74,250,Active,2,13176.61,Poor,2024-12-15,2025-12-15
+P00408,C00408,Ava,Taylor,29,Male,WA,Audi,A4,2023,Commercial Auto,Full Coverage,819.79,750,Expired,2,6736.97,Fair,2024-07-25,2025-07-25
+P00409,C00409,Isabella,Johnson,51,Female,NC,Hyundai,Elantra,2024,Personal Auto,Collision,2415.69,250,Expired,3,8583.92,Poor,2024-02-01,2025-01-31
+P00410,C00410,Noah,Wilson,35,Female,AZ,Honda,Civic,2020,Personal Auto,Comprehensive,2051.73,750,Active,1,14481.37,Poor,2024-10-18,2025-10-18
+P00411,C00411,Ava,Rodriguez,62,Female,TX,Audi,A4,2023,Commercial Auto,Liability Only,763.13,750,Cancelled,0,0.0,Good,2024-06-04,2025-06-04
+P00412,C00412,Amelia,Brown,60,Male,GA,Honda,Civic,2020,Personal Auto,Liability Only,952.6,1000,Active,1,6439.39,Excellent,2024-06-09,2025-06-09
+P00413,C00413,Benjamin,Johnson,74,Male,GA,BMW,3 Series,2020,Commercial Auto,Comprehensive,1974.28,750,Active,1,13945.13,Fair,2024-02-06,2025-02-05
+P00414,C00414,Amelia,Miller,58,Female,NY,Hyundai,Elantra,2016,Personal Auto,Liability Only,972.92,500,Cancelled,0,0.0,Very Good,2024-11-19,2025-11-19
+P00415,C00415,Michael,Rodriguez,26,Female,NC,Kia,Sportage,2020,Commercial Auto,Collision,1408.8,250,Cancelled,2,8968.95,Poor,2024-04-19,2025-04-19
+P00416,C00416,Benjamin,Smith,34,Female,CA,Nissan,Altima,2022,Personal Auto,Collision,695.25,500,Cancelled,1,1293.92,Excellent,2024-06-13,2025-06-13
+P00417,C00417,Michael,Smith,64,Male,NV,Hyundai,Elantra,2024,Commercial Auto,Comprehensive,923.27,500,Cancelled,0,0.0,Poor,2024-05-24,2025-05-24
+P00418,C00418,Sophia,Rodriguez,45,Female,NY,Tesla,Model 3,2023,Commercial Auto,Collision,1601.75,250,Cancelled,3,5001.97,Fair,2024-03-07,2025-03-07
+P00419,C00419,Benjamin,Thomas,43,Male,NC,Honda,Civic,2015,Commercial Auto,Full Coverage,2494.85,250,Active,0,0.0,Fair,2024-06-07,2025-06-07
+P00420,C00420,Emma,Martinez,68,Male,WA,Kia,Sportage,2016,Personal Auto,Collision,1160.33,1000,Expired,1,6180.54,Poor,2024-11-21,2025-11-21
+P00421,C00421,Henry,Anderson,67,Female,IL,Hyundai,Elantra,2018,Personal Auto,Full Coverage,916.2,1000,Active,2,14929.24,Poor,2024-06-17,2025-06-17
+P00422,C00422,Benjamin,Martinez,32,Male,AZ,Chevrolet,Malibu,2018,Personal Auto,Comprehensive,1728.76,500,Cancelled,2,10299.36,Very Good,2024-10-01,2025-10-01
+P00423,C00423,Henry,Miller,38,Male,NC,Ford,F-150,2021,Personal Auto,Full Coverage,1487.96,250,Active,2,13241.16,Good,2024-07-20,2025-07-20
+P00424,C00424,Evelyn,Taylor,46,Male,NV,BMW,3 Series,2024,Commercial Auto,Full Coverage,1255.2,500,Expired,0,0.0,Excellent,2024-05-22,2025-05-22
+P00425,C00425,Michael,Johnson,71,Female,IL,Nissan,Altima,2021,Personal Auto,Comprehensive,673.21,750,Active,3,2946.1,Excellent,2024-06-19,2025-06-19
+P00426,C00426,William,Johnson,59,Male,NY,Ford,F-150,2024,Personal Auto,Collision,1393.4,1000,Expired,3,11273.51,Fair,2024-01-06,2025-01-05
+P00427,C00427,Noah,Miller,57,Male,NC,Audi,A4,2022,Personal Auto,Comprehensive,2425.75,1000,Expired,3,5891.57,Very Good,2024-09-25,2025-09-25
+P00428,C00428,John,Brown,50,Male,WA,Tesla,Model 3,2021,Commercial Auto,Full Coverage,2289.13,250,Cancelled,3,3941.0,Very Good,2024-09-14,2025-09-14
+P00429,C00429,Harper,Martinez,68,Female,NC,BMW,3 Series,2019,Commercial Auto,Liability Only,1797.13,250,Active,1,12726.12,Poor,2024-06-30,2025-06-30
+P00430,C00430,Noah,Smith,55,Female,GA,Chevrolet,Malibu,2021,Personal Auto,Comprehensive,711.37,1000,Cancelled,2,12613.33,Excellent,2024-02-16,2025-02-15
+P00431,C00431,John,Martinez,47,Male,GA,Tesla,Model 3,2024,Commercial Auto,Comprehensive,1768.84,1000,Expired,1,9075.0,Excellent,2024-02-14,2025-02-13
+P00432,C00432,James,Martinez,46,Female,CA,Kia,Sportage,2022,Personal Auto,Full Coverage,1049.34,1000,Cancelled,2,10226.38,Fair,2024-04-07,2025-04-07
+P00433,C00433,Liam,Wilson,62,Female,IL,Tesla,Model 3,2018,Commercial Auto,Full Coverage,881.55,750,Cancelled,0,0.0,Excellent,2024-01-21,2025-01-20
+P00434,C00434,Lucas,Thomas,61,Male,TX,Tesla,Model 3,2023,Personal Auto,Collision,762.69,1000,Active,2,10906.43,Excellent,2024-09-03,2025-09-03
+P00435,C00435,Henry,Williams,33,Male,NY,Chevrolet,Malibu,2021,Commercial Auto,Collision,1035.45,750,Cancelled,1,6143.67,Very Good,2024-09-21,2025-09-21
+P00436,C00436,Olivia,Miller,33,Male,FL,Toyota,Camry,2020,Commercial Auto,Liability Only,699.96,750,Expired,2,8744.19,Excellent,2024-11-28,2025-11-28
+P00437,C00437,John,Smith,50,Male,IL,BMW,3 Series,2015,Commercial Auto,Collision,2284.42,500,Expired,3,10129.32,Fair,2024-03-30,2025-03-30
+P00438,C00438,Harper,Williams,25,Female,NV,Tesla,Model 3,2015,Personal Auto,Liability Only,874.05,1000,Expired,1,8053.3,Very Good,2024-08-18,2025-08-18
+P00439,C00439,Isabella,Jones,32,Female,FL,Toyota,Camry,2018,Personal Auto,Collision,2454.44,750,Expired,2,6633.18,Excellent,2024-06-26,2025-06-26
+P00440,C00440,Olivia,Johnson,60,Male,AZ,BMW,3 Series,2015,Personal Auto,Comprehensive,2116.84,750,Cancelled,0,0.0,Excellent,2024-02-12,2025-02-11
+P00441,C00441,Ava,Rodriguez,66,Female,IL,BMW,3 Series,2023,Commercial Auto,Collision,1167.83,750,Active,1,9723.79,Fair,2024-12-04,2025-12-04
+P00442,C00442,James,Brown,31,Female,GA,Toyota,Camry,2016,Commercial Auto,Full Coverage,1601.66,250,Active,3,9722.61,Good,2024-05-21,2025-05-21
+P00443,C00443,Liam,Anderson,23,Female,CA,Ford,F-150,2015,Personal Auto,Liability Only,829.48,500,Expired,0,0.0,Excellent,2024-04-11,2025-04-11
+P00444,C00444,Liam,Williams,24,Male,AZ,Kia,Sportage,2018,Commercial Auto,Liability Only,2226.12,250,Expired,0,0.0,Poor,2024-05-12,2025-05-12
+P00445,C00445,Sophia,Martinez,62,Female,WA,Chevrolet,Malibu,2023,Personal Auto,Comprehensive,775.85,250,Expired,3,1010.03,Good,2024-02-18,2025-02-17
+P00446,C00446,Isabella,Thomas,51,Male,IL,BMW,3 Series,2016,Personal Auto,Full Coverage,2288.5,500,Expired,2,9543.54,Fair,2024-07-29,2025-07-29
+P00447,C00447,Evelyn,Miller,22,Male,WA,Kia,Sportage,2015,Commercial Auto,Collision,1175.65,1000,Cancelled,1,4292.45,Excellent,2024-09-16,2025-09-16
+P00448,C00448,James,Taylor,69,Female,FL,Hyundai,Elantra,2019,Commercial Auto,Liability Only,751.36,1000,Cancelled,3,7370.37,Excellent,2024-08-08,2025-08-08
+P00449,C00449,Noah,Thomas,30,Female,WA,Hyundai,Elantra,2021,Commercial Auto,Full Coverage,1636.13,1000,Expired,3,2314.6,Fair,2024-09-19,2025-09-19
+P00450,C00450,Sophia,Johnson,41,Female,NY,Chevrolet,Malibu,2017,Personal Auto,Liability Only,1825.35,250,Active,1,9317.81,Good,2024-01-10,2025-01-09
+P00451,C00451,Lucas,Johnson,36,Male,WA,Audi,A4,2019,Commercial Auto,Comprehensive,906.79,250,Expired,3,10412.41,Poor,2024-03-24,2025-03-24
+P00452,C00452,John,Davis,37,Male,GA,Ford,F-150,2020,Commercial Auto,Collision,1238.57,750,Active,2,9197.02,Fair,2024-11-22,2025-11-22
+P00453,C00453,Emma,Jones,28,Female,WA,Audi,A4,2015,Personal Auto,Collision,1147.76,250,Active,3,3200.28,Poor,2024-07-27,2025-07-27
+P00454,C00454,Evelyn,Jones,59,Female,NY,Kia,Sportage,2015,Personal Auto,Liability Only,2469.82,1000,Expired,1,4319.46,Excellent,2024-06-03,2025-06-03
+P00455,C00455,Henry,Taylor,26,Female,FL,BMW,3 Series,2020,Commercial Auto,Comprehensive,1621.4,750,Active,1,14458.68,Excellent,2024-02-13,2025-02-12
+P00456,C00456,Henry,Wilson,33,Male,IL,Ford,F-150,2020,Personal Auto,Liability Only,674.66,500,Cancelled,0,0.0,Very Good,2024-10-10,2025-10-10
+P00457,C00457,Olivia,Johnson,44,Female,AZ,BMW,3 Series,2024,Commercial Auto,Comprehensive,710.9,250,Cancelled,2,9201.92,Very Good,2024-08-31,2025-08-31
+P00458,C00458,Isabella,Rodriguez,28,Male,NV,Honda,Civic,2024,Personal Auto,Collision,1656.2,500,Active,3,13037.04,Very Good,2024-01-16,2025-01-15
+P00459,C00459,Emma,Garcia,50,Female,TX,Ford,F-150,2021,Commercial Auto,Liability Only,843.1,1000,Expired,2,10507.6,Good,2024-04-04,2025-04-04
+P00460,C00460,John,Martinez,69,Male,GA,Honda,Civic,2019,Personal Auto,Comprehensive,1083.39,1000,Expired,1,12174.67,Good,2024-04-02,2025-04-02
+P00461,C00461,Ava,Taylor,65,Female,CA,Chevrolet,Malibu,2016,Commercial Auto,Liability Only,893.17,1000,Active,1,577.99,Fair,2024-03-10,2025-03-10
+P00462,C00462,Henry,Anderson,34,Male,WA,Chevrolet,Malibu,2019,Commercial Auto,Collision,1885.59,500,Active,0,0.0,Excellent,2024-03-24,2025-03-24
+P00463,C00463,Olivia,Garcia,60,Female,NY,Kia,Sportage,2015,Commercial Auto,Liability Only,1484.35,250,Active,0,0.0,Excellent,2024-10-23,2025-10-23
+P00464,C00464,Michael,Thomas,23,Male,NC,Ford,F-150,2020,Commercial Auto,Full Coverage,2054.34,750,Cancelled,3,2217.6,Fair,2024-10-26,2025-10-26
+P00465,C00465,Amelia,Brown,33,Male,CA,Kia,Sportage,2019,Commercial Auto,Full Coverage,963.02,1000,Expired,2,7838.52,Poor,2024-01-12,2025-01-11
+P00466,C00466,Liam,Davis,52,Male,CA,Audi,A4,2020,Personal Auto,Collision,2397.64,250,Active,3,4554.22,Excellent,2024-06-01,2025-06-01
+P00467,C00467,Harper,Smith,46,Female,TX,Toyota,Camry,2022,Personal Auto,Liability Only,802.13,500,Expired,0,0.0,Good,2024-02-17,2025-02-16
+P00468,C00468,Isabella,Thomas,31,Male,IL,Tesla,Model 3,2020,Commercial Auto,Collision,1842.06,500,Expired,2,8270.74,Good,2024-07-28,2025-07-28
+P00469,C00469,Emma,Davis,46,Female,NC,Kia,Sportage,2015,Personal Auto,Full Coverage,2135.67,1000,Expired,0,0.0,Poor,2024-12-23,2025-12-23
+P00470,C00470,Michael,Wilson,52,Male,IL,Kia,Sportage,2022,Commercial Auto,Liability Only,1645.9,500,Active,3,12811.55,Good,2024-12-06,2025-12-06
+P00471,C00471,Noah,Johnson,67,Female,TX,Kia,Sportage,2020,Commercial Auto,Collision,1743.48,1000,Expired,3,13778.46,Poor,2024-01-27,2025-01-26
+P00472,C00472,Harper,Martinez,41,Female,IL,Nissan,Altima,2021,Personal Auto,Collision,1149.58,750,Cancelled,3,2001.91,Poor,2024-07-13,2025-07-13
+P00473,C00473,John,Williams,21,Female,AZ,Hyundai,Elantra,2018,Personal Auto,Liability Only,1248.66,750,Cancelled,3,12054.39,Excellent,2024-04-17,2025-04-17
+P00474,C00474,Olivia,Brown,66,Female,AZ,Toyota,Camry,2017,Personal Auto,Liability Only,965.72,1000,Expired,0,0.0,Good,2024-01-26,2025-01-25
+P00475,C00475,Olivia,Anderson,45,Female,FL,Hyundai,Elantra,2023,Personal Auto,Liability Only,1339.24,750,Active,1,13962.78,Very Good,2024-06-30,2025-06-30
+P00476,C00476,Evelyn,Jones,47,Male,WA,Toyota,Camry,2021,Personal Auto,Collision,1505.74,1000,Active,0,0.0,Very Good,2024-02-08,2025-02-07
+P00477,C00477,Isabella,Brown,51,Male,NV,Kia,Sportage,2020,Commercial Auto,Full Coverage,815.31,500,Cancelled,1,12689.4,Good,2024-11-18,2025-11-18
+P00478,C00478,Evelyn,Anderson,26,Male,TX,Honda,Civic,2018,Commercial Auto,Liability Only,1549.73,750,Active,0,0.0,Very Good,2024-03-04,2025-03-04
+P00479,C00479,Evelyn,Johnson,26,Female,AZ,BMW,3 Series,2018,Personal Auto,Comprehensive,1962.27,1000,Active,3,12055.69,Poor,2024-07-25,2025-07-25
+P00480,C00480,Lucas,Anderson,65,Female,NY,Nissan,Altima,2017,Commercial Auto,Collision,2465.99,250,Expired,3,12907.79,Poor,2024-05-27,2025-05-27
+P00481,C00481,Charlotte,Garcia,31,Female,TX,BMW,3 Series,2015,Commercial Auto,Liability Only,2215.29,250,Cancelled,0,0.0,Fair,2024-11-17,2025-11-17
+P00482,C00482,Lucas,Jones,38,Female,CA,Honda,Civic,2023,Personal Auto,Full Coverage,1113.91,250,Cancelled,2,960.07,Good,2024-12-28,2025-12-28
+P00483,C00483,Ava,Anderson,41,Female,IL,Tesla,Model 3,2018,Personal Auto,Collision,2077.74,500,Cancelled,1,5947.78,Very Good,2024-05-14,2025-05-14
+P00484,C00484,Evelyn,Taylor,58,Female,GA,Nissan,Altima,2020,Personal Auto,Collision,2260.01,500,Expired,3,3869.46,Very Good,2024-10-19,2025-10-19
+P00485,C00485,Sophia,Garcia,61,Female,AZ,Hyundai,Elantra,2020,Commercial Auto,Comprehensive,1186.12,750,Expired,1,14114.43,Poor,2024-05-03,2025-05-03
+P00486,C00486,Noah,Smith,27,Male,TX,BMW,3 Series,2017,Personal Auto,Collision,1700.9,1000,Cancelled,2,2642.91,Very Good,2024-01-01,2024-12-31
+P00487,C00487,James,Davis,28,Female,FL,Chevrolet,Malibu,2019,Personal Auto,Collision,918.13,750,Active,0,0.0,Poor,2024-03-21,2025-03-21
+P00488,C00488,William,Rodriguez,64,Female,TX,Audi,A4,2024,Commercial Auto,Comprehensive,2405.84,750,Active,2,9503.32,Good,2024-09-29,2025-09-29
+P00489,C00489,Emma,Taylor,71,Male,AZ,Tesla,Model 3,2021,Personal Auto,Liability Only,1298.47,1000,Cancelled,3,6371.19,Good,2024-04-16,2025-04-16
+P00490,C00490,Sophia,Wilson,52,Male,IL,Tesla,Model 3,2016,Commercial Auto,Comprehensive,1261.03,250,Expired,3,9983.67,Poor,2024-10-06,2025-10-06
+P00491,C00491,Charlotte,Rodriguez,48,Male,TX,Kia,Sportage,2019,Personal Auto,Comprehensive,2021.99,500,Cancelled,2,2004.11,Poor,2024-11-15,2025-11-15
+P00492,C00492,Harper,Smith,46,Male,NV,Honda,Civic,2019,Personal Auto,Comprehensive,1581.22,1000,Cancelled,2,4711.03,Fair,2024-04-23,2025-04-23
+P00493,C00493,Henry,Garcia,69,Female,WA,Audi,A4,2016,Commercial Auto,Collision,1309.68,750,Active,1,4050.17,Poor,2024-03-30,2025-03-30
+P00494,C00494,Henry,Johnson,46,Female,NC,Nissan,Altima,2016,Commercial Auto,Collision,924.99,1000,Active,3,1131.36,Fair,2024-02-18,2025-02-17
+P00495,C00495,Henry,Davis,69,Male,TX,Hyundai,Elantra,2016,Personal Auto,Collision,1975.41,500,Expired,1,6867.93,Good,2024-12-30,2025-12-30
+P00496,C00496,Charlotte,Rodriguez,30,Male,TX,Audi,A4,2022,Commercial Auto,Collision,2362.06,1000,Cancelled,0,0.0,Excellent,2024-03-18,2025-03-18
+P00497,C00497,Michael,Thomas,66,Male,AZ,Toyota,Camry,2015,Commercial Auto,Collision,2402.07,500,Active,2,14949.92,Good,2024-04-14,2025-04-14
+P00498,C00498,Charlotte,Miller,25,Female,TX,Chevrolet,Malibu,2021,Commercial Auto,Full Coverage,951.94,250,Cancelled,1,6151.23,Good,2024-09-03,2025-09-03
+P00499,C00499,Evelyn,Thomas,69,Male,IL,BMW,3 Series,2023,Personal Auto,Liability Only,2361.34,500,Active,1,12795.71,Excellent,2024-03-19,2025-03-19
+P00500,C00500,Harper,Brown,62,Male,GA,Tesla,Model 3,2016,Commercial Auto,Full Coverage,1406.55,500,Cancelled,1,14040.74,Poor,2024-04-23,2025-04-23
